@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2023/10/06/hello-world/"/>
+    <url>/2023/10/06/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Hello World</p><span id="more"></span><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>入职一周年总结</title>
+    <link href="/2023/05/08/%E5%85%A5%E8%81%8C%E4%B8%80%E5%91%A8%E5%B9%B4%E6%80%BB%E7%BB%93/"/>
+    <url>/2023/05/08/%E5%85%A5%E8%81%8C%E4%B8%80%E5%91%A8%E5%B9%B4%E6%80%BB%E7%BB%93/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>虽然入职还不到一周年，但已经到了总结的时间了……</p></blockquote><h2 id="技术"><a href="#技术" class="headerlink" title="技术"></a>技术</h2><p>​部门技术栈是C语言，最熟悉最热爱的语言，但是熟悉一门语言和能不能写出好的代码完全没有关系，因为部门的业务已经非常成熟了，所以并没有太多的机会写大颗粒的需求，代码能力的锻炼还是差一些。鄙人的代码能力并没有多大的提升，写出来的东西一点也不优雅，尤其是命名，我觉得我在编码过程中缺少思考，也没有对代码有最基本的要求，惭愧的是，我仅仅是为了能完成需求而已，于是写出了依托有依托的答辩，本来屎山已经够复杂了，总之代码写的好烂。所以每个需求committer都会提n个检视意见，而绝大部分都是可以避免的，一是因为没写DT就找committer去检视了，二是因为代码写完后没有自己给小黄鸡走读一遍，仅仅是“看起来”完成功能了，就满足了。</p><p>​所以，写那么几行代码对编码能力的帮助微乎其微，一个朋友的习惯很好，去看别人的MR，读代码的时候也相当于自己完成了这个需求，而且，带着脑子阅读别人的代码也能发现其他人写的代码的优点和缺点，这个习惯很不错。</p><p>​</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>其他</category>
+      
+      <category>职业发展</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>职业发展</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Ubuntu桌面系统使用初体验</title>
+    <link href="/2023/05/07/Ubuntu%E6%A1%8C%E9%9D%A2%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E5%88%9D%E4%BD%93%E9%AA%8C/"/>
+    <url>/2023/05/07/Ubuntu%E6%A1%8C%E9%9D%A2%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E5%88%9D%E4%BD%93%E9%AA%8C/</url>
+    
+    <content type="html"><![CDATA[<ul><li>不会发生windows下无故更新的情况，CPU占用率不会无故飙升，体验就是，感觉ubuntu很小巧轻量</li><li>Windows上使用的应用程序是真的少，连微信都没有提供linux版本，只能使用wine模拟Windows API</li><li>ChatGPT可以尝试一下</li><li>相比用虚拟机代码开发，用真实的物理机操作是真的爽</li><li>输入法难用，不是一般的难用，可能是因为刚开始用的原因，不习惯</li><li>磁盘空间分的太少，只有64GB，有点后悔了</li><li>目前使用Ubuntu只是写代码和刷B站，后续可能会将Ubuntu作为主力系统</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>操作系统</category>
+      
+      <category>Ubuntu</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Ubuntu</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ChatGPT使用初体验</title>
+    <link href="/2023/05/03/ChatGPT%E4%BD%BF%E7%94%A8%E5%88%9D%E4%BD%93%E9%AA%8C/"/>
+    <url>/2023/05/03/ChatGPT%E4%BD%BF%E7%94%A8%E5%88%9D%E4%BD%93%E9%AA%8C/</url>
+    
+    <content type="html"><![CDATA[<ul><li><p>什么是ChatGPT</p><blockquote><p><img src="ChatGPT%E4%BD%BF%E7%94%A8%E5%88%9D%E4%BD%93%E9%AA%8C/image-20230503212732257.png" alt="image-20230503212732257"></p></blockquote></li><li><p>ChatGPT使用初体验</p><ul><li><p>我太爱ChatGPT了，简直就是一个超级高效的助手，最主要的优点是<strong>节省时间</strong></p></li><li><p>总结能力一流，如下</p><p><img src="ChatGPT%E4%BD%BF%E7%94%A8%E5%88%9D%E4%BD%93%E9%AA%8C/image-20230503212326456.png" alt="image-20230503212326456"></p></li><li><p>如果能更快拿到答案就更好了</p></li><li><p>肯定很多人会因为ChatGPT使用Edge浏览器，不得不说，这个工具杀伤力太大了</p></li><li><p>需要自己辨别答案的正确性，因为它不会告诉你它不会这个问题，经常林黛玉倒把垂杨柳</p></li></ul></li><li><p>个人看法</p><p>目前ChatGPT可以是程序员提升效率很好的工具，它只是一个功能强大的语言模型，无法完全替代<strong>优秀</strong>程序员的作用。</p></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>tools</category>
+      
+      <category>ChatGPT</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>工具</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Linux虚拟机编程</title>
+    <link href="/2023/04/10/Linux%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BC%96%E7%A8%8B/"/>
+    <url>/2023/04/10/Linux%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BC%96%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Linux虚拟机下开发程序"><a href="#Linux虚拟机下开发程序" class="headerlink" title="Linux虚拟机下开发程序"></a>Linux虚拟机下开发程序</h2><p>背景：想开发一个存储引擎，原项目在linux上开发，而本机的mingw缺少一个函数库，因此考虑基于linux开发。</p><p>宿主机：Windows10</p><p>虚拟机：Ubuntu</p><blockquote><p>虚拟机是虚拟出来的完整的计算机，与物理机的主要体验区别是速度不如物理机快</p></blockquote><ul><li><p>方法1：直接在虚拟机里用IDE（如Pycharm、Jetbrains、Eclipse），需要为虚拟机开大一点的内存</p></li><li><p>方法2：虚拟机里使用vim + gcc + gdb等</p></li><li><p>方法3：主机下编程，虚拟机里编译运行调试，使用ssh等将主机源代码同步到虚拟机</p></li><li><p>方法4（推荐）：<strong>vscode远程开发</strong>，跟本地开发体验一样爽</p><p>参考：</p><p>​<a href="https://zhuanlan.zhihu.com/p/141344165">手把手教你配置VS Code远程开发工具，工作效率提升N倍</a></p><p>​<a href="https://wenfh2020.com/2021/06/23/vscode-gdb-debug-linux-kernel/">vscode + gdb 远程调试 linux 内核源码（附视频）</a></p><p>​<a href="https://warmgrid.github.io/2019/05/21/remote-debug-in-vscode-insiders.html">使用 VSCode 远程访问代码以及远程 GDB 调试</a></p></li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Ubuntu虚拟机使用体验</title>
+    <link href="/2023/04/10/Ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/"/>
+    <url>/2023/04/10/Ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>体验版本：Ubuntu 20.04 LTS</p><p>虚拟机软件：VMware</p></blockquote><ul><li><p>必须要安装的应用、配置的选项</p><ul><li>网络配置：ipv4地址、子网掩码、网关、DNS服务器地址等</li><li>GUI设置</li><li>宿主机与虚拟机之间复制粘贴、拷贝文件</li><li>ssh：虚拟机与宿主机之间通信</li><li>vim、git：无需多说</li><li>build-essential：c&#x2F;c++编译工具链</li></ul></li><li><p>尽量安装版本较高的操作系统，因为很多软件可能不会支持</p><ul><li>比如vscode远程开发在早期版本的Ubuntu系统下存在bug，调试失败</li></ul></li><li><p>有些包可能并没有安装但是有相关资料，造成其已经被安装的假象，实际上还需要安装</p></li><li><p>英文资料比中文的靠谱多了……</p></li><li><p>相关网站：</p><ul><li><a href="https://linuxconfig.org/">linuxconfig.org&#x2F;</a></li><li><a href="https://ubuntu.com/">ubuntu.com&#x2F;</a></li></ul></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Ubuntu</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Valgrind 安装与使用</title>
+    <link href="/2021/10/23/Valgrind-%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    <url>/2021/10/23/Valgrind-%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<p>《OSTEP》第 14 章作业用到Valgrind，很不幸的是需要自己安装……</p><span id="more"></span><h2 id="Valgrind-安装"><a href="#Valgrind-安装" class="headerlink" title="Valgrind 安装"></a>Valgrind 安装</h2><p>一开始直接在之前一门课程上用过的实验环境上安装，没成功。这门课叫《计算机系统实验》，没错，想当年提供的虚拟机连网都不能上（也可能是被我自己搞坏了），换了一个虚拟机（Ubuntu）后才安装成功，其实就一句命令<code>sudo apt-get install valgrind</code>，但是如果环境有问题，好吧……</p><h2 id="Valgrind-使用"><a href="#Valgrind-使用" class="headerlink" title="Valgrind 使用"></a>Valgrind 使用</h2>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>GDB调试</title>
+    <link href="/2021/10/23/GDB%E8%B0%83%E8%AF%95%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <url>/2021/10/23/GDB%E8%B0%83%E8%AF%95%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h3 id="源程序编译"><a href="#源程序编译" class="headerlink" title="源程序编译"></a>源程序编译</h3><p>源程序：test1.c</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs c"> <span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span><br> <span class="hljs-type">int</span> <span class="hljs-title function_">func</span><span class="hljs-params">(<span class="hljs-type">int</span> n)</span><br>&#123;<br><span class="hljs-type">int</span> sum = <span class="hljs-number">0</span>, i;<br><span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; n; ++i) &#123;<br>sum += i;<br>&#125;<br><span class="hljs-keyword">return</span> sum;<br>&#125;<br><br><span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">()</span> &#123;<br><span class="hljs-type">int</span> i;<br><span class="hljs-type">long</span> result = <span class="hljs-number">0</span>;<br><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">100</span>; ++i) &#123;<br>result += i;<br>&#125;<br>    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;result[1-100] = %d /n&quot;</span>, result);<br>    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;result[1-250] = %d /n&quot;</span>, func(<span class="hljs-number">250</span>));<br>&#125;<br></code></pre></td></tr></table></figure><p>编译生成执行文件：（Linux下）<code>gcc -g -o test1 test1.c -Wall</code>，加上-g选项。</p><h3 id="GDB调试案例"><a href="#GDB调试案例" class="headerlink" title="GDB调试案例"></a>GDB调试案例</h3><p>使用GDB调试：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br></pre></td><td class="code"><pre><code class="hljs bash">linux:~/$ gdb test1&lt;---------- 启动GDB<br>GNU gdb (Ubuntu/Linaro 7.4-2012.04-0ubuntu2) 7.4-2012.04<br>Copyright (C) 2012 Free Software Foundation, Inc.<br>License GPLv3+: GNU GPL version 3 or later &lt;http://gnu.org/licenses/gpl.html&gt;<br>This is free software: you are free to change and redistribute it.<br>There is NO WARRANTY, to the extent permitted by law.  Type <span class="hljs-string">&quot;show copying&quot;</span><br>and <span class="hljs-string">&quot;show warranty&quot;</span> <span class="hljs-keyword">for</span> details.<br>This GDB was configured as <span class="hljs-string">&quot;i686-linux-gnu&quot;</span>.<br>For bug reporting instructions, please see:<br>&lt;http://bugs.launchpad.net/gdb-linaro/&gt;...<br>Reading symbols from /home/linux/OSTEP/Homework/14.第十四章-插叙_内存操作api/code/test1...<span class="hljs-keyword">done</span>.<br>(gdb) l&lt;-------------------- l命令相当于list，从第一行开始例出原码。<br>4int <span class="hljs-built_in">sum</span> = 0, i;<br>5<span class="hljs-keyword">for</span> (i = 0; i &lt; n; ++i) &#123;<br>6<span class="hljs-built_in">sum</span> += i;<br>7&#125;<br>8<span class="hljs-built_in">return</span> <span class="hljs-built_in">sum</span>;<br>9&#125;<br>10<br>11int <span class="hljs-function"><span class="hljs-title">main</span></span>() &#123;<br>12int i;<br>13long result = 0;<br>(gdb) &lt;-------------------- 直接回车表示，重复上一次命令<br>14<span class="hljs-keyword">for</span> (i = 0; i &lt; 100; ++i) &#123;<br>15result += i;<br>16&#125;<br>17    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;result[1-100] = %d /n&quot;</span>, (int)result);<br>18    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;result[1-250] = %d /n&quot;</span>, func(250));<br>19<span class="hljs-built_in">return</span> 0;<br>20&#125;<br>(gdb)   <span class="hljs-built_in">break</span> 12&lt;-------------------- 设置断点，在源程序第12行处。<br>Breakpoint 1 at 0x804841a: file test1.c, line 12.<br>(gdb) <span class="hljs-built_in">break</span> func&lt;-------------------- 设置断点，在函数func()入口处。<br>Breakpoint 2 at 0x80483ea: file test1.c, line 4.<br>(gdb) info <span class="hljs-built_in">break</span>&lt;-------------------- 查看断点信息。<br>Num     Type           Disp Enb Address    What<br>1       breakpoint     keep y   0x0804841a <span class="hljs-keyword">in</span> main at test1.c:12<br>2       breakpoint     keep y   0x080483ea <span class="hljs-keyword">in</span> func at test1.c:4<br>(gdb) r&lt;--------------------- 运行程序，run命令简写<br>Starting program: /home/linux/OSTEP/Homework/14.第十四章-插叙_内存操作api/code/test1 <br><br>Breakpoint 1, main () at test1.c:13&lt;---------- 在断点处停住。<br>13long result = 0;<br>(gdb) n&lt;--------------------- 单条语句执行，next命令简写。<br>14<span class="hljs-keyword">for</span> (i = 0; i &lt; 100; ++i) &#123;<br>(gdb) n<br>15result += i;<br>(gdb) <br>14<span class="hljs-keyword">for</span> (i = 0; i &lt; 100; ++i) &#123;<br>(gdb) <br>15result += i;<br>(gdb) c&lt;--------------------- 继续运行程序，<span class="hljs-built_in">continue</span>命令简写。<br>Continuing.<br><br>Breakpoint 2, func (n=250) at test1.c:4<br>4int <span class="hljs-built_in">sum</span> = 0, i;<br>(gdb) n<br>5<span class="hljs-keyword">for</span> (i = 0; i &lt; n; ++i) &#123;<br>(gdb) p i&lt;--------------------- 打印变量i的值，<span class="hljs-built_in">print</span>命令简写。<br><span class="hljs-variable">$1</span> = -1207961320<br>(gdb) n<br>6<span class="hljs-built_in">sum</span> += i;<br>(gdb) n<br>5<span class="hljs-keyword">for</span> (i = 0; i &lt; n; ++i) &#123;<br>(gdb) p i<br><span class="hljs-variable">$2</span> = 0<br>(gdb) n<br>6<span class="hljs-built_in">sum</span> += i;<br>(gdb) n<br>5<span class="hljs-keyword">for</span> (i = 0; i &lt; n; ++i) &#123;<br>(gdb) p <span class="hljs-built_in">sum</span><br><span class="hljs-variable">$3</span> = 1<br>(gdb) p i<br><span class="hljs-variable">$4</span> = 1<br>(gdb) bt&lt;--------------------- 查看函数堆栈。<br><span class="hljs-comment">#0  func (n=250) at test1.c:5</span><br><span class="hljs-comment">#1  0x08048461 in main () at test1.c:18</span><br>(gdb) finish&lt;--------------------- 退出函数。<br>Run till <span class="hljs-built_in">exit</span> from <span class="hljs-comment">#0  func (n=250) at test1.c:5</span><br>0x08048461 <span class="hljs-keyword">in</span> main () at test1.c:18<br>18    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;result[1-250] = %d /n&quot;</span>, func(250));<br>Value returned is <span class="hljs-variable">$5</span> = 31125<br>(gdb) n<br>19<span class="hljs-built_in">return</span> 0;<br>(gdb) c&lt;--------------------- 继续运行。<br>Continuing.<br>result[1-100] = 4950 /nresult[1-250] = 31125 /n[Inferior 1 (process 3516) exited normally]&lt;----程序输出。程序退出，调试结束。<br>(gdb) q&lt;--------------------- 退出gdb。<br>linux:~/$ <br></code></pre></td></tr></table></figure><h3 id="GDB-常用命令"><a href="#GDB-常用命令" class="headerlink" title="GDB 常用命令"></a>GDB 常用命令</h3><h4 id="启动-GDB"><a href="#启动-GDB" class="headerlink" title="启动 GDB"></a>启动 GDB</h4><p>编译：一般来说GDB主要调试的是C&#x2F;C++的程序。要调试C&#x2F;C++的程序，首先在编译时，我们必须要<em>把调试信息加到可执行文件中</em>。使用编译器（cc&#x2F;gcc&#x2F;g++）的 -g 选项可以做到这一点。如：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">cc -g hello.c -o hello<br>g++ -g hello.cpp -o hello<br></code></pre></td></tr></table></figure><p>启动GDB：<code>gdb &lt;program&gt;</code>，program也就是你的执行文件，一般在当前目录下。</p><h4 id="GDB-交互命令"><a href="#GDB-交互命令" class="headerlink" title="GDB 交互命令"></a>GDB 交互命令</h4><h4 id="GDB-命令概貌"><a href="#GDB-命令概貌" class="headerlink" title="GDB 命令概貌"></a>GDB 命令概貌</h4><p>启动gdb后，就你被带入gdb的调试环境中，就可以使用gdb的命令开始调试程序了，gdb的命令可以使用<code>help</code>命令来查看：</p><p><img src="GDB%E8%B0%83%E8%AF%95%EF%BC%88%E4%B8%80%EF%BC%89/image-20211023204012383.png" alt="image-20211023204012383"></p><p>如上所示，gdb的命令很多，gdb把之分成许多个种类。help命令只是例出gdb的命令种类，如果要看种类中的命令，可以使用<code>help &lt;class&gt;</code> 命令，如：help breakpoints，查看设置断点的所有命令。也可以直接help <command>来查看命令的帮助。</p><p>gdb中，输入命令时，可以不用打全命令，只用打命令的前几个字符就可以了，当然，命令的前几个字符应该要标志着一个唯一的命令，在Linux下，你可以敲击两次TAB键来补齐命令的全称，如果有重复的，那么gdb会把其例出来。</p><p>如：<code>b func</code> &#x3D;&gt; <code>break func</code></p><h4 id="暂停-恢复程序运行"><a href="#暂停-恢复程序运行" class="headerlink" title="暂停 &#x2F; 恢复程序运行"></a>暂停 &#x2F; 恢复程序运行</h4><h5 id="设置断点（BreakPoint）"><a href="#设置断点（BreakPoint）" class="headerlink" title="设置断点（BreakPoint）"></a>设置断点（BreakPoint）</h5><p><code>break &lt;function&gt;</code>：在进入指定函数时停住。C++中可以使用class::function或function(type,type)格式来指定函数名。</p><p><code>break &lt;linenum&gt;</code>：在指定行号停住。</p><p><code>break filename:linenum</code>：在源文件filename的linenum行处停住。</p><p><code>break</code>：没有参数时，表示在下一条指令处停住。</p><p><code>break ... if &lt;condition&gt;</code>：…可以是上述的参数，condition表示条件，在条件成立时停住。比如在循环境体中，可以设置break if i&#x3D;100，表示当i为100时停住程序。</p><p>TODO：</p><p>#####设置观察点（WatchPoint）</p><p>#####设置捕捉点（CatchPoint）</p><p>#####维护停止点</p><p>GDB中的停止点也就是上述的三类（断点、观察点、捕捉点）。在GDB中，如果你觉得已定义好的停止点没有用了，你可以使用delete（删除指定的断点）、clear（清除定义的停止点）、disable（disable停止点，而不会删除）、enable（enable停止点）这几个命令来进行维护。</p><p>#####为停止点设定运行命令</p><p>恢复程序运行：当程序被停住了，你可以用continue命令恢复程序的运行直到程序结束，或下一个断点到来。也可以使用step或next命令单步跟踪程序。</p><p><code>continue [ignore-count]</code>：恢复程序运行，直到程序结束，或是下一个断点到来。ignore-count表示忽略其后的断点次数。continue，c，fg三个命令都是一样的意思。</p><p>单步调试：</p><p><code>next &lt;count&gt;</code>：单步跟踪，如果有函数调用，他不会进入该函数。很像VC等工具中的step over。后面可以加count也可以不加，不加表示一条条地执行，加表示执行后面的count条指令，然后再停住。</p><p><code>step &lt;count&gt;</code>：单步跟踪，如果有函数调用，他会进入该函数。进入函数的前提是，此函数被编译有debug信息。很像VC等工具中的step in。后面可以加count也可以不加，不加表示一条条地执行，加表示执行后面的count条指令，然后再停住。</p><p>查看栈信息：当程序被停住了，你需要做的第一件事就是查看程序是在哪里停住的。当你的程序调用了一个函数，函数的地址，函数参数，函数内的局部变量都会被压入“栈”（Stack）中。你可以用GDB命令来查看当前的栈中的信息。</p><p><code>backtrace</code>或<code>bt</code>：打印当前的函数调用栈的所有信息，如下， 可以看出函数的调用栈信息是main() -&gt; func()</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">(gdb) bt<br><span class="hljs-comment">#0  func (n=250) at test1.c:5</span><br><span class="hljs-comment">#1  0x08048461 in main () at test1.c:18</span><br></code></pre></td></tr></table></figure><p>查看源代码：</p><p>打印表达式：</p><p>查看运行信息：</p><p>TODO：</p><p>#####分割窗口：</p><h4 id="更强大的工具"><a href="#更强大的工具" class="headerlink" title="更强大的工具"></a>更强大的工具</h4><p>cgdb可以看作gdb的界面增强版,用来替代gdb的 gdb -tui。cgdb主要功能是在调试时进行代码的同步显示，这无疑增加了调试的方便性，提高了调试效率。界面类似vi，符合unix&#x2F;linux下开发人员习惯;如果熟悉gdb和vi，几乎可以立即使用cgdb。</p><p>参考：</p><p><a href="https://blog.csdn.net/haoel/article/details/2879">用GDB调试程序（一）</a>首选，更具体和全面的系列专栏。</p><p><a href="https://linuxtools-rst.readthedocs.io/zh_CN/latest/tool/gdb.html#id2">Linux工具 - 1. gdb 调试利器</a></p><p>其他：<a href="https://coolshell.cn/articles/3643.html">GDB中应该知道的几个调试方法</a></p><h2 id="The-End"><a href="#The-End" class="headerlink" title="The End"></a>The End</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>tools</category>
+      
+      <category>GDB</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>GDB</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Git基本使用方法和常见问题</title>
+    <link href="/2021/10/23/Git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E5%92%8C%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    <url>/2021/10/23/Git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E5%92%8C%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</url>
+    
+    <content type="html"><![CDATA[<p>背景：克隆仓库时Git不负众望又出问题了，先是SSL_ERROR_SYSCALL, errno 10054，后来是time out。通过下面的方式成功解决了。</p><span id="more"></span><h3 id="问题1：OpenSSL-SSL-read-SSL-ERROR-SYSCALL-errno-10054"><a href="#问题1：OpenSSL-SSL-read-SSL-ERROR-SYSCALL-errno-10054" class="headerlink" title="问题1：OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054"></a>问题1：OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054</h3><p>Git操作出现网络错误，通过代理也无法解决。修改HTTP的SSL认证。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global http.sslVerify <span class="hljs-string">&quot;false&quot;</span><br></code></pre></td></tr></table></figure><p>执行命令后还是失败。出现报错信息<code>Failed to connect to github.com port 443:connection timed out</code>。</p><h3 id="问题2：Failed-to-connect-to-github-com-port-443-connection-timed-out"><a href="#问题2：Failed-to-connect-to-github-com-port-443-connection-timed-out" class="headerlink" title="问题2：Failed to connect to github.com port 443:connection timed out"></a>问题2：Failed to connect to github.com port 443:connection timed out</h3><p>解决方案：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 取消全局代理：</span><br>git config --global --<span class="hljs-built_in">unset</span> http.proxy<br>git config --global --<span class="hljs-built_in">unset</span> https.proxy<br></code></pre></td></tr></table></figure><p>参考：</p><p><a href="https://blog.csdn.net/qq_44209563/article/details/104294486">使用git clone 命令显示错误fatal: unable to access ‘××‘: OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054</a></p><p><a href="https://blog.51cto.com/u_15127612/4065849">Git报错解决：OpenSSL SSL_read:Connection was reset, errno 10054转载</a></p><h3 id="问题3：git-clone-只有-git文件夹"><a href="#问题3：git-clone-只有-git文件夹" class="headerlink" title="问题3：git clone 只有.git文件夹"></a>问题3：git clone 只有.git文件夹</h3><p>git status后发现文件夹全都被删除，如下所示：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ git <span class="hljs-built_in">clone</span> git@github.com:joshuap233/Operating-Systems-Three-Easy-Pieces-NOTES.git<br>Cloning into <span class="hljs-string">&#x27;Operating-Systems-Three-Easy-Pieces-NOTES&#x27;</span>...<br>remote: Enumerating objects: 3667, <span class="hljs-keyword">done</span>.<br>remote: Counting objects: 100% (3667/3667), <span class="hljs-keyword">done</span>.<br>remote: Compressing objects: 100% (2634/2634), <span class="hljs-keyword">done</span>.<br>remote: Total 3667 (delta 1145), reused 3405 (delta 891), pack-reused 0<br>Receiving objects: 100% (3667/3667), 2.49 MiB | 75.00 KiB/s, <span class="hljs-keyword">done</span>.<br>Resolving deltas: 100% (1145/1145), <span class="hljs-keyword">done</span>.<br>fatal: cannot create directory at <span class="hljs-string">&#x27;04.第四章-抽象:进程&#x27;</span>: Invalid argument <span class="hljs-comment"># 报错信息实际在这里，无法创建目录，参数非法</span><br>warning: Clone succeeded, but checkout failed.<br>You can inspect what was checked out with <span class="hljs-string">&#x27;git status&#x27;</span><br>and retry the checkout with <span class="hljs-string">&#x27;git checkout -f HEAD&#x27;</span><br></code></pre></td></tr></table></figure><p>![git - 问题3 - 1](git - 问题3 - 1.png)</p><p>对于一个相同的目录，GitHub上是这样的，注意”:”：</p><p>![git - 问题3 - 3](git - 问题3 - 3.png)</p><p>本地下载后”:”变为了”-“，尝试重新改名，失败：</p><p>![git - 问题3 - 2](&#x2F;git - 问题3 - 2.png)</p><p>原因如下：mac和windows的文件命名格式不同，windows不允许使用<code>*/:</code>等特殊符号作为文件名，mac可以。所以当库中有这些存在时，Windows将会不识别，也就导致了报错，后面的文件就没有被拉下来，所以就全空的。所以让mac的同学把所有带 <code>*/</code>的都改掉，这样再去git clone 就没有任何问题了。实际上clone时出现的fatal信息已经说明这一点了。</p><p>最终的解决方案：下载压缩包，解压缩时解压缩程序自动将非法字符转换为合法字符。</p><p>参考：</p><p><a href="https://blog.csdn.net/qq_28992047/article/details/108734691">git clone 只有.git文件夹 git status后发现文件夹全都被删除了</a></p><p><a href="https://blog.csdn.net/wc1695040842/article/details/90902629">git错误之fatal: cannot create directoryxxxx’: Invalid argument</a>解决创建目录时非法参数的问题</p><p><a href="https://www.cnblogs.com/scutwang/p/3929363.html">我的Git教程 之 解决 git clone后无代码</a>该问题另一种可能的情况，没遇到过</p><p>![图片 test1](图片 test1.jpg)</p><p>注：要先重新安装<code>hexo-asset-image</code>插件</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>tools</category>
+      
+      <category>Git</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Git</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Git使用常见错误</title>
+    <link href="/2021/10/19/Git%E4%BD%BF%E7%94%A8%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/"/>
+    <url>/2021/10/19/Git%E4%BD%BF%E7%94%A8%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/</url>
+    
+    <content type="html"><![CDATA[<p>背景：克隆仓库时Git不负众望又出问题了，先是SSL_ERROR_SYSCALL, errno 10054，后来是time out。通过下面的方式成功解决了。</p><span id="more"></span><h3 id="问题1：OpenSSL-SSL-read-SSL-ERROR-SYSCALL-errno-10054"><a href="#问题1：OpenSSL-SSL-read-SSL-ERROR-SYSCALL-errno-10054" class="headerlink" title="问题1：OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054"></a>问题1：OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054</h3><p>Git操作出现网络错误，通过代理也无法解决。修改HTTP的SSL认证。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global http.sslVerify <span class="hljs-string">&quot;false&quot;</span><br></code></pre></td></tr></table></figure><p>执行命令后还是失败。出现报错信息<code>Failed to connect to github.com port 443:connection timed out</code>。</p><h3 id="问题2：Failed-to-connect-to-github-com-port-443-connection-timed-out"><a href="#问题2：Failed-to-connect-to-github-com-port-443-connection-timed-out" class="headerlink" title="问题2：Failed to connect to github.com port 443:connection timed out"></a>问题2：Failed to connect to github.com port 443:connection timed out</h3><p>解决方案：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 取消全局代理：</span><br>git config --global --<span class="hljs-built_in">unset</span> http.proxy<br>git config --global --<span class="hljs-built_in">unset</span> https.proxy<br></code></pre></td></tr></table></figure><p>参考：</p><p><a href="https://blog.csdn.net/qq_44209563/article/details/104294486">使用git clone 命令显示错误fatal: unable to access ‘××‘: OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054</a></p><p><a href="https://blog.51cto.com/u_15127612/4065849">Git报错解决：OpenSSL SSL_read:Connection was reset, errno 10054转载</a></p><h3 id="问题3：git-clone-只有-git文件夹"><a href="#问题3：git-clone-只有-git文件夹" class="headerlink" title="问题3：git clone 只有.git文件夹"></a>问题3：git clone 只有.git文件夹</h3><p>git status后发现文件夹全都被删除，如下所示：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ git <span class="hljs-built_in">clone</span> git@github.com:joshuap233/Operating-Systems-Three-Easy-Pieces-NOTES.git<br>Cloning into <span class="hljs-string">&#x27;Operating-Systems-Three-Easy-Pieces-NOTES&#x27;</span>...<br>remote: Enumerating objects: 3667, <span class="hljs-keyword">done</span>.<br>remote: Counting objects: 100% (3667/3667), <span class="hljs-keyword">done</span>.<br>remote: Compressing objects: 100% (2634/2634), <span class="hljs-keyword">done</span>.<br>remote: Total 3667 (delta 1145), reused 3405 (delta 891), pack-reused 0<br>Receiving objects: 100% (3667/3667), 2.49 MiB | 75.00 KiB/s, <span class="hljs-keyword">done</span>.<br>Resolving deltas: 100% (1145/1145), <span class="hljs-keyword">done</span>.<br>fatal: cannot create directory at <span class="hljs-string">&#x27;04.第四章-抽象:进程&#x27;</span>: Invalid argument <span class="hljs-comment"># 报错信息实际在这里，无法创建目录，参数非法</span><br>warning: Clone succeeded, but checkout failed.<br>You can inspect what was checked out with <span class="hljs-string">&#x27;git status&#x27;</span><br>and retry the checkout with <span class="hljs-string">&#x27;git checkout -f HEAD&#x27;</span><br></code></pre></td></tr></table></figure><p>![git - 问题3 - 1](Git使用常见错误&#x2F;git - 问题3 - 1.PNG)</p><p>对于一个相同的目录，GitHub上是这样的，注意”:”：</p><p>![git - 问题3 - 3](Git使用常见错误&#x2F;git - 问题3 - 3.png)</p><p>本地下载后”:”变为了”-“，尝试重新改名，失败：</p><p>![git - 问题3 - 2](git - 问题3 - 2.png)</p><p>原因如下：mac和windows的文件命名格式不同，windows不允许使用<code>*/:</code>等特殊符号作为文件名，mac可以。所以当库中有这些存在时，Windows将会不识别，也就导致了报错，后面的文件就没有被拉下来，所以就全空的。所以让mac的同学把所有带 <code>*/</code>的都改掉，这样再去git clone 就没有任何问题了。实际上clone时出现的fatal信息已经说明这一点了。</p><p>最终的解决方案：下载压缩包，解压缩时解压缩程序自动将非法字符转换为合法字符。</p><p>参考：</p><p><a href="https://blog.csdn.net/qq_28992047/article/details/108734691">git clone 只有.git文件夹 git status后发现文件夹全都被删除了</a></p><p><a href="https://blog.csdn.net/wc1695040842/article/details/90902629">git错误之fatal: cannot create directoryxxxx’: Invalid argument</a>解决创建目录时非法参数的问题</p><p><a href="https://www.cnblogs.com/scutwang/p/3929363.html">我的Git教程 之 解决 git clone后无代码</a>该问题另一种可能的情况，没遇到过</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>tools</category>
+      
+      <category>Git</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Git</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Tiny HTTPd源码分析</title>
+    <link href="/2021/10/17/Tiny-HTTPd%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+    <url>/2021/10/17/Tiny-HTTPd%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>VsCode使用经验</title>
+    <link href="/2021/10/06/VsCode%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/"/>
+    <url>/2021/10/06/VsCode%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</url>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="代码高亮插件"><a href="#代码高亮插件" class="headerlink" title="代码高亮插件"></a>代码高亮插件</h2><ul><li><p>使用插件为highlight-words</p><p>安装和配置参考：<a href="https://blog.csdn.net/u013171226/article/details/108868425">VS Code配置选中后相同内容高亮功能_类似于source insight 中的shift+F8高亮功能</a></p></li><li><p>最终效果</p><p><img src="VsCode%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/image-20230320233613698.png" alt="image-20230320233613698"></p><p>虽然不如公司的插件效果好看，但是能将就着用了。</p></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>tools</category>
+      
+      <category>VsCode</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Git</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>使用 Git 重命名文件</title>
+    <link href="/2021/10/06/%E4%BD%BF%E7%94%A8-git-%E9%87%8D%E5%91%BD%E5%90%8D/"/>
+    <url>/2021/10/06/%E4%BD%BF%E7%94%A8-git-%E9%87%8D%E5%91%BD%E5%90%8D/</url>
+    
+    <content type="html"><![CDATA[<p>背景：在文件资源管理器中修改了文件名，项目在本地运行成功，push到远程仓库合并后编译报错，发现远程仓库文件名仍然没有修改……</p><span id="more"></span><h3 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h3><p>在文件资源管理器中修改文件名（或者通过IDE），git 对重命名文件名大小写不敏感。</p><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>方法1：</p><p>备份文件 -&gt; 删除原文件（<code>git rm</code>） -&gt; 添加新文件（<code>git add</code>）</p><p>方法2：</p><p>直接修改文件名（<code>git mv &lt;old_filename&gt; &lt;new_filename&gt;</code>）</p><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="https://blog.csdn.net/u012814856/article/details/99940160">解决 git 对重命名文件名大小写不敏感的问题</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>tools</category>
+      
+      <category>Git</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Git</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>设计模式 - 单例模式</title>
+    <link href="/2021/10/06/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/"/>
+    <url>/2021/10/06/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</url>
+    
+    <content type="html"><![CDATA[<p>单例模式是校招面试最容易提问的设计模式之一，其他常见的设计模式包括观察者模式、工厂模式（简单工厂模式、工厂方法模式、抽象工厂模式）</p><span id="more"></span><h2 id="1、什么是单例模式"><a href="#1、什么是单例模式" class="headerlink" title="1、什么是单例模式"></a>1、什么是单例模式</h2><p>关键词：单例模式、线程安全、内存泄漏、magic static、</p><p><strong>定义</strong>：<em>保证一个类仅有一个实例，并提供一个访问它的全局访问点。</em>即为了保证在一个进程中，某个类有且仅有一个实例。</p><p><strong>实现要点</strong>：</p><ul><li>全局只有一个实例：static 特性，同时禁止用户自己声明并定义实例（把构造函数设为 private）</li><li>线程安全</li><li>禁止赋值和拷贝</li><li>用户通过接口获取实例：使用 static 类成员函数</li></ul><p><strong>实现方式</strong>：</p><p>使用一个<em>私有构造函数</em>、一个<em>私有静态变量</em>以及一个<em>公有静态函数</em>来实现。私有构造函数保证了不能通过构造函数来创建对象实例，只能通过公有静态函数返回唯一的私有静态变量。</p><p>具体运用场景如：</p><ol><li>设备管理器，系统中可能有多个设备，但是只有一个设备管理器，用于管理设备驱动;</li><li>数据池，用来缓存数据的数据结构，需要在一处写，多处读取或者多处写，多处读取;</li><li>参考Unix V6++中的单例模式;</li></ol><p>优点：</p><ul><li>你可以保证一个类只有一个实例。</li><li>你获得了一个指向该实例的全局访问节点。</li><li>仅在首次请求单例对象时对其进行初始化。</li></ul><p>缺点：</p><ul><li>违反了_单一职责原则_。 该模式同时解决了两个问题（保证一个类只有一个实例、为该实例提供一个全局访问节点）。</li><li>单例模式可能掩盖不良设计， 比如程序各组件之间相互了解过多等。</li><li>该模式在多线程环境下需要进行特殊处理， 避免多个线程多次创建单例对象。</li><li>单例的客户端代码单元测试可能会比较困难， 因为许多测试框架以基于继承的方式创建模拟对象。 由于单例类的构造函数是私有的， 而且绝大部分语言无法重写静态方法， 所以你需要想出仔细考虑模拟单例的方法。 要么干脆不编写测试代码， 或者不使用单例模式。</li></ul><p>分类：根据实例对象创建时间，可分为饿汉模式、懒汉模式；根据实例对象的位置（性质），分为局部静态变量、全局指针两种。</p><p>其他：编程实现一个单例模式(基础版)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs C++"><span class="hljs-comment">// version 1.0</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Singleton</span><br>&#123;<br><span class="hljs-keyword">private</span>:<br><span class="hljs-type">static</span> Singleton* instance;<br><span class="hljs-keyword">private</span>:<br><span class="hljs-built_in">Singleton</span>() &#123;&#125;;<span class="hljs-comment">// 构造函数设为private</span><br>~<span class="hljs-built_in">Singleton</span>() &#123;&#125;;<br><span class="hljs-built_in">Singleton</span>(<span class="hljs-type">const</span> Singleton&amp;);<br>Singleton&amp; <span class="hljs-keyword">operator</span>=(<span class="hljs-type">const</span> Singleton&amp;);<br><span class="hljs-keyword">public</span>:<br><span class="hljs-function"><span class="hljs-type">static</span> Singleton* <span class="hljs-title">getInstance</span><span class="hljs-params">()</span> </span><br><span class="hljs-function">        </span>&#123;<br><span class="hljs-keyword">if</span>(instance == <span class="hljs-literal">NULL</span>) <br>instance = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Singleton</span>();<br><span class="hljs-keyword">return</span> instance;<br>&#125;<br>&#125;;<br><br><span class="hljs-comment">// init static member</span><br>Singleton* Singleton::instance = <span class="hljs-literal">NULL</span>;<br></code></pre></td></tr></table></figure><p>参考：<a href="https://www.cnblogs.com/sunchaothu/p/10389842.html">C++ 单例模式总结与剖析</a>首选</p><blockquote><p>注：关于静态成员变量的定义</p><p>其实这句话“静态成员变量是需要初始化的”是有一定问题的，应该说“静态成员变量需要定义”才是准确的，而不是初始化。</p><p>两者的区别在于：初始化是赋一个初始值，而定义是分配内存。</p><p>静态成员变量在类中仅仅是声明，没有定义，所以要在类的外面定义，实际上是给静态成员变量分配内存。</p></blockquote><h2 id="2、C-实现单例的几种方式"><a href="#2、C-实现单例的几种方式" class="headerlink" title="2、C++ 实现单例的几种方式"></a>2、C++ 实现单例的几种方式</h2><h3 id="2-1-有缺陷的懒汉式"><a href="#2-1-有缺陷的懒汉式" class="headerlink" title="2.1 有缺陷的懒汉式"></a>2.1 有缺陷的懒汉式</h3><p>懒汉式(Lazy-Initialization)的方法是<em>直到使用时才实例化对象</em>，也就说直到调用get_instance() 方法的时候才 new 一个单例的对象， 如果不被调用就不会占用内存。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-comment">// version1:</span><br><span class="hljs-comment">// with problems below:</span><br><span class="hljs-comment">// 1. thread is not safe</span><br><span class="hljs-comment">// 2. memory leak</span><br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Singleton</span> &#123;<br><span class="hljs-keyword">private</span>:<br>    <span class="hljs-built_in">Singleton</span>() &#123;<br>        std::cout &lt;&lt; <span class="hljs-string">&quot;constructor called!&quot;</span> &lt;&lt; std::endl;<br>    &#125;<br>    <span class="hljs-built_in">Singleton</span>(Singleton&amp;) = <span class="hljs-keyword">delete</span>;<br>    Singleton&amp; <span class="hljs-keyword">operator</span>=(<span class="hljs-type">const</span> Singleton&amp;) = <span class="hljs-keyword">delete</span>;<br>    <span class="hljs-type">static</span> Singleton* m_instance_ptr;<br><span class="hljs-keyword">public</span>:<br>    ~<span class="hljs-built_in">Singleton</span>() &#123;<br>        std::cout &lt;&lt; <span class="hljs-string">&quot;destructor called!&quot;</span> &lt;&lt; std::endl;<br>    &#125;<br>    <span class="hljs-function"><span class="hljs-type">static</span> Singleton* <span class="hljs-title">get_instance</span><span class="hljs-params">()</span> </span>&#123;<br>        <span class="hljs-keyword">if</span> (m_instance_ptr == <span class="hljs-literal">nullptr</span>) &#123;<br>            m_instance_ptr = <span class="hljs-keyword">new</span> Singleton;<br>        &#125;<br>        <span class="hljs-keyword">return</span> m_instance_ptr;<br>    &#125;<br>    <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">use</span><span class="hljs-params">()</span> <span class="hljs-type">const</span> </span>&#123; std::cout &lt;&lt; <span class="hljs-string">&quot;in use&quot;</span> &lt;&lt; std::endl; &#125;<br>&#125;;<br><br>Singleton* Singleton::m_instance_ptr = <span class="hljs-literal">nullptr</span>;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>&#123;<br>    Singleton* instance = Singleton::<span class="hljs-built_in">get_instance</span>();<br>    Singleton* instance_2 = Singleton::<span class="hljs-built_in">get_instance</span>();<br>    <span class="hljs-keyword">delete</span> instance;<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure><p>运行的结果是<code>constructor called!</code><br>可以看到，获取了两次类的实例，却只有一次类的构造函数被调用，表明只生成了唯一实例，这是个最基础版本的单例实现，他有哪些问题呢？</p><p><em>线程安全</em>的问题,当多线程获取单例时有可能引发竞态条件：第一个线程在if中判断 m_instance_ptr是空的，于是开始实例化单例;同时第2个线程也尝试获取单例，这个时候判断m_instance_ptr还是空的，于是也开始实例化单例;这样就会实例化出两个对象,这就是线程安全问题的由来; 解决办法:加锁（mutex），防止多次访问，第一次判断不为空不加锁，若为空，再进行加锁判断是否为空，若为空则生成对象。</p><p><em>内存泄漏</em>. 注意到类中只负责new出对象，却没有负责delete对象，因此只有构造函数被调用，析构函数却没有被调用;因此会导致内存泄漏。解决办法： 使用<em>共享指针</em>（shared_ptr）;</p><p>因此，这里提供一个改进的，线程安全的、使用智能指针的实现;</p><h3 id="2-2-线程安全、内存安全的懒汉式单例-（智能指针，锁）"><a href="#2-2-线程安全、内存安全的懒汉式单例-（智能指针，锁）" class="headerlink" title="2.2 线程安全、内存安全的懒汉式单例 （智能指针，锁）"></a>2.2 线程安全、内存安全的懒汉式单例 （智能指针，锁）</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;memory&gt;</span> <span class="hljs-comment">// shared_ptr</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;mutex&gt;</span>  <span class="hljs-comment">// mutex</span></span><br><br><span class="hljs-comment">// version 2:</span><br><span class="hljs-comment">// with problems below fixed:</span><br><span class="hljs-comment">// 1. thread is safe now</span><br><span class="hljs-comment">// 2. memory doesn&#x27;t leak</span><br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Singleton</span>&#123;<br><span class="hljs-keyword">public</span>:<br>    <span class="hljs-keyword">typedef</span> std::shared_ptr&lt;Singleton&gt; Ptr;<br>    ~<span class="hljs-built_in">Singleton</span>()&#123;<br>        std::cout&lt;&lt;<span class="hljs-string">&quot;destructor called!&quot;</span>&lt;&lt;std::endl;<br>    &#125;<br>    <span class="hljs-built_in">Singleton</span>(Singleton&amp;)=<span class="hljs-keyword">delete</span>;<br>    Singleton&amp; <span class="hljs-keyword">operator</span>=(<span class="hljs-type">const</span> Singleton&amp;)=<span class="hljs-keyword">delete</span>;<br>    <span class="hljs-function"><span class="hljs-type">static</span> Ptr <span class="hljs-title">get_instance</span><span class="hljs-params">()</span></span>&#123;<br>        <span class="hljs-comment">// &quot;double checked lock&quot;</span><br>        <span class="hljs-keyword">if</span>(m_instance_ptr==<span class="hljs-literal">nullptr</span>)&#123;<br>            <span class="hljs-function">std::lock_guard&lt;std::mutex&gt; <span class="hljs-title">lk</span><span class="hljs-params">(m_mutex)</span></span>;<br>            <span class="hljs-keyword">if</span>(m_instance_ptr == <span class="hljs-literal">nullptr</span>)&#123;<br>              m_instance_ptr = std::<span class="hljs-built_in">shared_ptr</span>&lt;Singleton&gt;(<span class="hljs-keyword">new</span> Singleton);<br>            &#125;<br>        &#125;<br>        <span class="hljs-keyword">return</span> m_instance_ptr;<br>    &#125;<br><span class="hljs-keyword">private</span>:<br>    <span class="hljs-built_in">Singleton</span>()&#123;<br>        std::cout&lt;&lt;<span class="hljs-string">&quot;constructor called!&quot;</span>&lt;&lt;std::endl;<br>    &#125;<br>    <span class="hljs-type">static</span> Ptr m_instance_ptr;<br>    <span class="hljs-type">static</span> std::mutex m_mutex;<br>&#125;;<br><br><span class="hljs-comment">// initialization static variables out of class</span><br>Singleton::Ptr Singleton::m_instance_ptr = <span class="hljs-literal">nullptr</span>;<br>std::mutex Singleton::m_mutex;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;<br>    Singleton::Ptr instance = Singleton::<span class="hljs-built_in">get_instance</span>();<br>    Singleton::Ptr instance2 = Singleton::<span class="hljs-built_in">get_instance</span>();<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure><p>运行结果如下，发现确实只构造了一次实例，并且发生了析构。<code>constructor called!</code> <code>destructor called!</code><br>shared_ptr和mutex都是C++11的标准，以上这种方法的优点是</p><p>基于 shared_ptr, 用了C++比较倡导的 RAII思想，用对象管理资源,当 shared_ptr 析构的时候，new 出来的对象也会被 delete掉。以此避免内存泄漏。<br>加了锁，使用互斥量来达到线程安全。这里使用了两个 if判断语句的技术称为<em>双检锁</em>；好处是，只有判断指针为空的时候才加锁，避免每次调用 get_instance的方法都加锁，锁的开销毕竟还是有点大的。<br>不足之处在于： 使用智能指针会要求用户也得使用智能指针，非必要不应该提出这种约束; 使用锁也有开销; 同时代码量也增多了，实现上我们希望越简单越好。</p><p>还有更加严重的问题，在某些平台（与编译器和指令集架构有关），双检锁会失效！具体可以看<a href="https://www.drdobbs.com/cpp/c-and-the-perils-of-double-checked-locki/184405726">这篇文章</a>，解释了为什么会发生这样的事情。</p><p>因此这里还有第三种的基于 Magic Staic的方法达到线程安全。</p><p>注：<a href="https://refactoringguru.cn/design-patterns">设计模式</a>中的线程安全单例可能发生内存泄漏</p><h3 id="2-3-最推荐的懒汉式单例-magic-static-——局部静态变量"><a href="#2-3-最推荐的懒汉式单例-magic-static-——局部静态变量" class="headerlink" title="2.3 最推荐的懒汉式单例(magic static )——局部静态变量"></a>2.3 最推荐的懒汉式单例(magic static )——局部静态变量</h3><blockquote><p>其实就是把静态全局变量改为静态局部变量，利用了<em>C++11的magic static特性</em>。</p></blockquote><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Singleton</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>    ~<span class="hljs-built_in">Singleton</span>() &#123;<br>        std::cout &lt;&lt; <span class="hljs-string">&quot;destructor called!&quot;</span> &lt;&lt; std::endl;<br>    &#125;<br>    <span class="hljs-built_in">Singleton</span>(<span class="hljs-type">const</span> Singleton&amp;) = <span class="hljs-keyword">delete</span>;<br>    Singleton&amp; <span class="hljs-keyword">operator</span>=(<span class="hljs-type">const</span> Singleton&amp;) = <span class="hljs-keyword">delete</span>;<br>    <span class="hljs-function"><span class="hljs-type">static</span> Singleton&amp; <span class="hljs-title">get_instance</span><span class="hljs-params">()</span> </span>&#123;<br>        <span class="hljs-type">static</span> Singleton instance;<br>        <span class="hljs-keyword">return</span> instance;<br>    &#125;<br><span class="hljs-keyword">private</span>:<br>    <span class="hljs-built_in">Singleton</span>() &#123;<br>        std::cout &lt;&lt; <span class="hljs-string">&quot;constructor called!&quot;</span> &lt;&lt; std::endl;<br>    &#125;<br>&#125;;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">(<span class="hljs-type">int</span> argc, <span class="hljs-type">char</span>* argv[])</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-comment">// 注：Singleton对象的实例化应该用引用或者指针，如果没有禁用对象赋值或者拷贝构造，则默认是内存拷贝，会产生新的实例对象，也不符合单例模式的要求，比如 `Singleton instance1 = Singleton::Instance();`就不应该出现</span><br>    <span class="hljs-comment">// 注：指针也不行，因为如果delete instance（instance是指向该类的唯一实例的指针）会运行报错，因为实例instance不是new出来的</span><br>    Singleton&amp; instance_1 = Singleton::<span class="hljs-built_in">get_instance</span>();<br>    Singleton&amp; instance_2 = Singleton::<span class="hljs-built_in">get_instance</span>();<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br><br></code></pre></td></tr></table></figure><p>这种方法又叫做 Meyers’ Singleton<a href="https://stackoverflow.com/questions/449436/singleton-instance-declared-as-static-variable-of-getinstance-method-is-it-thre/449823#449823">Meyer’s的单例</a>， 是著名的写出《Effective C++》系列书籍的作者 Meyers 提出的。所用到的特性是在C++11标准中的<a href="http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2008/n2660.htm">Magic Static</a>特性：</p><blockquote><p>If control enters the declaration concurrently while the variable is being initialized, the concurrent execution shall wait for completion of the initialization.<br>如果当变量在初始化的时候，并发同时进入声明语句，并发线程将会阻塞等待初始化结束。</p></blockquote><p>这样保证了并发线程在获取静态局部变量的时候一定是初始化过的，所以具有线程安全性。</p><p><a href="https://stackoverflow.com/questions/246564/what-is-the-lifetime-of-a-static-variable-in-a-c-function">C++静态变量的生存期</a> 是从声明到程序结束，这也是一种懒汉式。</p><p>这是最推荐的一种单例实现方式：</p><ol><li>通过局部静态变量的特性保证了线程安全 (C++11, GCC &gt; 4.3, VS2015支持该特性);</li><li><em>不需要使用共享指针</em>，代码简洁；</li><li>注意在使用的时候需要声明单例的<em>引用</em> <code>Single&amp;</code> 才能获取对象。</li></ol><p>另外网上有人的实现返回指针而不是返回引用</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-function"><span class="hljs-type">static</span> Singleton* <span class="hljs-title">get_instance</span><span class="hljs-params">()</span></span>&#123;<br>    <span class="hljs-type">static</span> Singleton instance;<br>    <span class="hljs-keyword">return</span> &amp;instance;<br>&#125;<br></code></pre></td></tr></table></figure><p>这样做并不好，理由主要是无法避免用户使用<code>delete instance</code>导致对象被提前销毁。还是建议大家使用返回引用的方式。</p><h2 id="3、何时应该使用或者不使用单例"><a href="#3、何时应该使用或者不使用单例" class="headerlink" title="3、何时应该使用或者不使用单例"></a>3、何时应该使用或者不使用单例</h2><p><code>You need to have one and only one object of a type in system</code>你需要系统中只有唯一一个实例存在的类的全局变量的时候才使用单例。</p><p>如果使用单例，应该用什么样子的<br>越小越好，越简单越好，线程安全，内存不泄露。</p><p>其他：单例模板、CRTP 奇异递归模板模式实现，参考<a href="https://www.cnblogs.com/loveis715/archive/2012/07/18/2598409.html">面试中的Singleton</a>（这里的单例模式是不全的，需要禁用赋值和拷贝）和<a href="https://www.cnblogs.com/sunchaothu/p/10389842.html">C++ 单例模式总结与剖析</a>（首选）</p><p><strong>面试题</strong>：</p><p>单例模式的线程安全问题：1、静态局部变量，基于magic static机制避免多线程的同步问题）、2、加锁（双重锁、mutex）</p><p>单例模式有哪几种创建方式：饿汉方式（指全局的单例实例在类装载时构建，即<code>Singleton* Singleton::singleton_ = new Singleton;</code>，无参构造函数必须定义且私有）、懒汉方式（指全局的单例实例在第一次被使用时构建）参考：<a href="https://blog.csdn.net/qq_41075324/article/details/108917691">单例模式的几种创建方式</a>其他几种方式、<a href="https://blog.csdn.net/qq_29344757/article/details/75575217">C++单例模式(懒汉&#x2F;饿汉)</a>C++饿汉</p><p>如何保证单例模式只有唯一实例：将该类的<em>构造方法定义为私有方法</em>（或者将构造方法删除，用delete关键字），这样其他处的代码就无法通过调用该类的构造方法来实例化该类的对象，只有通过该类提供的静态方法来得到该类的唯一实例；在该类内<em>提供一个静态方法</em>，当我们调用这个方法时，如果类持有的引用不为空就返回这个引用，如果类保持的引用为空就创建该类的实例并将实例的引用赋予该类保持的引用。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>设计模式</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>设计模式</tag>
+      
+      <tag>单例模式</tag>
+      
+      <tag>C++</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>如何用Hexo搭建博客</title>
+    <link href="/2021/10/06/%E5%A6%82%E4%BD%95%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2021/10/06/%E5%A6%82%E4%BD%95%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+    
+    <content type="html"><![CDATA[<p>为什么要搭建博客？其实是闲的。</p><span id="more"></span><h2 id="从-0-到-1"><a href="#从-0-到-1" class="headerlink" title="从 0 到 1"></a>从 0 到 1</h2><p>从 0 开始用 GitHub + Hexo 搭建一个博客，除了用到的主题（next）很丑，没多少缺点。</p><p>搭建时长：3h</p><p>域名：franktjp.com</p><p>参考：</p><p><a href="https://zhuanlan.zhihu.com/p/102592286">从零开始搭建个人博客（超详细）</a>首选，还有很多可选项没尝试，浅尝辄止即可。</p><p><a href="https://blog.csdn.net/Candle_light/article/details/114992784">执行Hexo d报错Spawn failed， 以及OpenSSL SSL_read: Connection was reset, errno 10054</a>解决执行<code>hexo d</code>可能报错的问题，此外可能出现SSH的问题，谷歌即可。</p><p><a href="https://docs.github.com/cn/pages">GitHub Pages 文档</a>GitHub官网</p><p><a href="https://hexo.io/zh-cn/docs/">Hexo 文档</a></p><p><a href="https://liam.page/">sz</a>一个案例</p><h2 id="从-1-到-2"><a href="#从-1-到-2" class="headerlink" title="从 1 到 2"></a>从 1 到 2</h2><p>如何快速的使用Hexo写博客？</p><p>参考：</p><p><a href="https://hexo.io/zh-cn/docs/writing">Hexo - 写作</a>quick start，首选！</p><p><a href="https://lfkid.github.io/">中二病也要玩 front end</a>写博客不错的例子。</p><p><strong>好看的主题</strong></p><p><a href="https://github.com/amehime/hexo-theme-shoka/">Hexo 主题 Shoka</a>发现了一个非常非常好看的主题，但是有不少bug。</p><p><a href="https://asuhe.jp/">asuhe.jp</a>另外一个同样很好看的主题！</p><p><a href="https://github.com/jerryc127/hexo-theme-butterfly">hexo-theme-butterfly</a>TW、看起来挺好看、bug少、重</p><p><a href="https://github.com/blinkfox/hexo-theme-matery">hexo-theme-matery</a>相比butterfly有一点简陋，貌似bug有点多，好多issue</p><p><a href="http://blinkfox.com/">闪烁之狐</a></p><p><a href="https://esappear.github.io/clover/">一个非常简洁、清爽的主题</a></p><h2 id="2-……"><a href="#2-……" class="headerlink" title="2 ……"></a>2 ……</h2><p>说到底还是配置站点配置文件和主题配置文件……</p><blockquote><p>因为现在使用的主题已经足够强大了，具体参考<a href="https://hexo.fluid-dev.com/docs/">Hexo Fluid 用户手册</a></p></blockquote><ul><li><p>搜索功能</p><p>配置algolia搜索功能，参考：<a href="https://metang326.github.io/2017/11/13/[hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2]hexo%20next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AEalgolia%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD/">hexo next主题配置algolia搜索功能</a></p><p>然后失败了</p></li><li><p>评论系统</p><p>博客使用的是<a href="https://valine.js.org/">Valine</a></p></li><li><p>hexo中插入本地图片</p><p>参考：<a href="https://wangxiaoyu-go.github.io/2018/11/18/hexo-asset-image/">Hexo中插入图片hexo asset image</a></p></li><li><p>待办：</p><ul><li>评论功能：使用GitHub的留言评论</li><li>背景</li><li>自动提交</li><li>基础设置（用户名、个签……</li><li>随机图库<a href="https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/config/">https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/config/</a></li></ul></li></ul><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>花了63大洋租了一个域名，有些鲁莽了，因为实在想不起别的好听的名字。</p><ul><li><p>hexo常用命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo init =&gt; 新建一个网站<br>$ hexo n <span class="hljs-string">&quot;博客名称&quot;</span>  =&gt; hexo new <span class="hljs-string">&quot;博客名称&quot;</span>   <span class="hljs-comment"># 创建新文章，前者是简写模式</span><br>$ hexo p  =&gt; hexo publish<br>$ hexo g  =&gt; hexo generate  <span class="hljs-comment"># 生成静态网页</span><br>$ hexo s  =&gt; hexo server  <span class="hljs-comment"># 启动服务预览</span><br>$ hexo d  =&gt; hexo deploy  <span class="hljs-comment"># 部署</span><br>$ hexo clean   <span class="hljs-comment">#清除缓存，网页正常情况下可以忽略此条命令</span><br>$ hexo clean &amp; hexo g &amp; hexo d<span class="hljs-comment"># 一键式命令</span><br></code></pre></td></tr></table></figure><p>参考：<a href="https://www.jianshu.com/p/dc416787f2cb">Hexo常用命令</a></p></li><li><p>执行命令<code>hexo g</code>报错</p><p><code>Error: ENOENT: no such file or directory, open &#39;themes/shoka/source/js/_app/utils.js&#39;</code></p><p>实际上这个文件是存在的，而之前也没干啥坏事就遇到了这个错误。最后也能猜到，可能是路径的问题，因为报错信息表明这是一个相对路径，切换到根目录<code>D:/Blog</code>下执行，成功。</p></li><li><p>图片相对路径错误导致图片无法显示，如下</p><p><img src="%E5%A6%82%E4%BD%95%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20230503230242516.png" alt="image-20230503230242516"></p><p>发现图片路径很奇怪：</p><p><img src="%E5%A6%82%E4%BD%95%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20230503230145731.png" alt="image-20230503230145731"></p><p>正确的应该是：</p><p><img src="%E5%A6%82%E4%BD%95%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20230503233739080.png" alt="image-20230503233739080"></p><p>发现hexo g时输出了奇怪的图片路径，想到使用<a href="https://github.com/xcodebuild/hexo-asset-image">hexo-asset-image</a>插件，参考如下帖子，直接修改插件的index.js文件，解决：</p><p><img src="%E5%A6%82%E4%BD%95%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20230504000304968.png" alt="image-20230504000304968"></p><p><img src="%E5%A6%82%E4%BD%95%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20230504000142669.png" alt="image-20230504000142669"></p><p>参考：<a href="https://blog.iz4.cc/tutorial/2022/08/%E8%A7%A3%E5%86%B3hexo-asset-image%E5%9B%BE%E7%89%87%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E6%9B%BF%E6%8D%A2%E9%97%AE%E9%A2%98/">解决hexo-asset-image图片相对路径替换问题</a></p></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>其他</category>
+      
+      <category>博客</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>简历</title>
+    <link href="/2021/10/05/%E7%AE%80%E5%8E%86/"/>
+    <url>/2021/10/05/%E7%AE%80%E5%8E%86/</url>
+    
+    <content type="html"><![CDATA[<p>暑期实习简历</p><span id="more"></span><h1 id="简历"><a href="#简历" class="headerlink" title="简历"></a>简历</h1><p>性别：男求职意向：</p><p>手机：19946255605邮箱：<a href="mailto:&#x31;&#49;&#49;&#x35;&#x33;&#x30;&#x32;&#56;&#57;&#x30;&#x40;&#x71;&#113;&#x2e;&#x63;&#111;&#x6d;">&#x31;&#49;&#49;&#x35;&#x33;&#x30;&#x32;&#56;&#57;&#x30;&#x40;&#x71;&#113;&#x2e;&#x63;&#111;&#x6d;</a></p><h2 id="求职意向"><a href="#求职意向" class="headerlink" title="求职意向"></a>求职意向</h2><p>3年计算机科学与技术专业学习，具有团队合作软件开发经验，对操作系统兴趣浓厚。</p><p>有Linux下进行C&#x2F;C++编程的经历，了解socket编程、进程间通信，了解Makefile、shell的简单使用。</p><p>广泛参加学校和社会活动，具备良好的沟通能力和组织能力。</p><h2 id="教育背景"><a href="#教育背景" class="headerlink" title="教育背景"></a>教育背景</h2><p>时间：2018-09~2022-07</p><p>学校：同济大学 | 专业：计算机科学与技术系 | 学历：本科</p><p>核心课程：操作系统、数据库、编译原理、数据结构、算法分析、C++程序设计、计算机网络（在学）等</p><p>曾获奖项：2018-2019学年国家励志奖学金、2018-2019同济大学优秀学生奖学金等</p><p>社会实践：第二届中国国际进口博览会志愿者（前期协助室内导航系统蓝牙模块的安装与测试，会期站岗引导国内外游客）</p><h2 id="项目经历"><a href="#项目经历" class="headerlink" title="项目经历"></a>项目经历</h2><p>交互式影评系统：</p><p>作为WEB数据库项目，完成了一个简单的交互式影评系统，实现了时光网的部分基本功能，为电影爱好者和专业影评撰写者提供一个<em>获取影片信息与高质量影评</em>、<em>撰写影评与阅读影评</em>的交流分享平台，界面友好，简单易用。</p><p>● 前端：HTML5+CSS3+JavaScript，使用Bootstrap框架帮助搭建页面，通过jQuery简化JS操作过程并实现前后端交互<br>● 后端：Python Flask框架<br>● 数据库：Sqlite3，考虑迁移到MySQL数据库<br>● 版本控制：Git &#x2F; Github</p><p><strong>简易军棋游戏AI</strong>：</p><p>基于Alpha-Beta剪枝算法设计的简易军棋AI，通过读取当前棋局信息，评估下一步落子最优解，实现自动游戏。</p><p>实现了剪枝算法、设计棋局的静态评估函数，综合考虑了棋子的棋力、攻击力等多种因素。实验结果显示程序在深度为2的搜索树上取得了较好的效果。</p><p><strong>类C语言语法分析器</strong>：</p><p>包括词法分析器、语法分析器，实现类C语言（C语言的一个子集）的语法分析功能。</p><p>主要负责实现语法分析过程、语法分析树生成以及程序调试分析。根据ACTION表和GOTO表进行语法分析，将分析结果用语法分析树展示。现阶段正在实现一个简易类C语言编译器，包括完整的前端和后端。</p><p><strong>文件系统</strong>：</p><p>剖析 Unix V6++源代码，剪裁文件管理模块、高速缓存管理模块和硬盘驱动模块，实现若干文件操作API</p><p><strong>网络同步盘</strong></p><p>……</p><h2 id="职业技能"><a href="#职业技能" class="headerlink" title="职业技能"></a>职业技能</h2><p>C++熟悉SQL熟悉html5熟悉css3熟悉JavaScript熟悉</p><p>python了解jQuery框架了解</p><p>Linux编程了解Git了解</p><hr><p>编程语言：熟悉C&#x2F;C++，能够使用python。</p><p>计算机基础：基本的数据结构和算法，掌握SQL语句的基本用法。</p><p>职业技能：能够使用HTML5、CSS３、JavaScript，了解jQuery框架；能够使用Flask框架搭建网站后端。了解Git的基本使用，并通过Git／Github进行项目版本管理。</p><h2 id="兴趣爱好"><a href="#兴趣爱好" class="headerlink" title="兴趣爱好"></a>兴趣爱好</h2><p>金庸羽毛球卷报告</p><h2 id="个人特点"><a href="#个人特点" class="headerlink" title="个人特点"></a>个人特点</h2><p>热爱编程，热爱技术，热爱开源，具有一定的文档编写能力，自信乐观积极谦逊，持续学习，独立解决问题的能力，对职业生涯有较为清晰的规划，希望成为中国最顶尖的程序员。</p><p>爱好各种体育运动，体测各项指标满分或接近满分。</p><p>缺点：无。</p><p>参考：</p><p><a href="https://www.zhiyeapp.com/jlgl/pqAHSf.html">计算机专业简历怎么写？</a>模板</p><p><a href="https://www.zhihu.com/question/25002833">知乎-程序员简历应该怎么写？</a></p><h2 id="游戏经历"><a href="#游戏经历" class="headerlink" title="游戏经历"></a>游戏经历</h2><p><strong>网游或手游经历</strong>：</p><p>和平精英&#x2F;绝地求生：因为并不擅长射击类游戏，玩的不多，但是这款游戏体验真的不错。<br>实况足球：游戏时长1500h++++（实际上我也无法估计应该是多长时间2333，反正是特别长），从初三到高三再到大二，这款游戏（虽然能联网，我只玩单机）是我枯燥学习生活的星辰，迷茫时的归宿。最疯狂的时候，一天能打七八个小时，实在饿得不行才去吃饭2333，最后觉得花时间太多了，戒了。因为自身对足球关注比较多，一次偶然的机会接触了这款游戏，然后就沦陷了，实况6、8、10是玩的最多的，里面职业球员太过经典，虽然我们可能并不了解这些上古大神，但是可以通过游戏一睹他们的风采。就实况10来说，初学者上手还是不容易的，还是要练习一段时间，一旦上手之后看着自己操控的球员不断过人、进球，踢出精彩的比赛还是很有成就感的（可能这一点是我之前沉迷于这款游戏的一个因素吧）。这款游戏为热爱足球和运动的我们构筑了一个完美的虚拟的现实。</p><p>应聘本职位的三个优势（结合专业特长和游戏经历）：</p><p>1、对计算机底层感兴趣：虽然对多种语言均有所涉猎，但是C&#x2F;C++还是最熟悉的语言，学习过程中侧重于对计算机基础的学习，这方面绩点还算是可以，但是仍旧深感不足，后续仍要不断的学习，尤其是阅读经典书籍，之前全是当作工具书了呜呜（《深入理解计算机系统》、《操作系统导论》、《C++ primer》……）</p><p>2、热爱游戏：虽然已经戒了游戏呜呜，虽然玩的游戏不算多，但是1500+的游戏时长……我觉得我对游戏有自己的理解。</p><p>3、热爱技术，热衷于钻研和学习新知识：平常喜欢捣鼓新东西，学习新的东西，并且乐此不疲，图形学是我未完成的学习任务中的一个，《计算机图形学》在书架上吃灰一年多了，CG仍然是我将要送给世界的浪漫，已经迫不及待重新开始学习了（现在在狂背八股，希望拿到offer后立马开始CG！！！冲冲冲！！</p><p>4、对底层有特殊的爱好（虽然非常不懂）！</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>其他</category>
+      
+      <category>实习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>实习</tag>
+      
+      <tag>简历</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
