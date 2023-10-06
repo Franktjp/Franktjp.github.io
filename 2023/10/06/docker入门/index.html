@@ -16,28 +16,27 @@
   <meta name="author" content="Franktjp">
   <meta name="keywords" content="">
   
-    <meta name="description" content="为什么要搭建博客？其实是闲的。">
+    <meta name="description" content="Docker入门简介 为什么需要docker？ 不同物理机器可能配置完全不一样，即便都是Linux系统但是比如Ubuntu和CentOS也有差别，而对于测试、部署需要相同的环境（包括各种软件：数据库、web服务器等），所以需要一种工具来模拟完全相同的开发环境。 虚拟机是一种思路，模拟硬件并运行整个OS，但是太过于笨重、性能低下、占用资源多。Docker和虚拟机类似，但是不模拟硬件，而是为每个应用提">
 <meta property="og:type" content="article">
-<meta property="og:title" content="如何用Hexo搭建博客">
-<meta property="og:url" content="http://franktjp.com/2021/10/06/%E5%A6%82%E4%BD%95%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:title" content="一个人流浪">
+<meta property="og:url" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/index.html">
 <meta property="og:site_name" content="一个人流浪">
-<meta property="og:description" content="为什么要搭建博客？其实是闲的。">
+<meta property="og:description" content="Docker入门简介 为什么需要docker？ 不同物理机器可能配置完全不一样，即便都是Linux系统但是比如Ubuntu和CentOS也有差别，而对于测试、部署需要相同的环境（包括各种软件：数据库、web服务器等），所以需要一种工具来模拟完全相同的开发环境。 虚拟机是一种思路，模拟硬件并运行整个OS，但是太过于笨重、性能低下、占用资源多。Docker和虚拟机类似，但是不模拟硬件，而是为每个应用提">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://franktjp.com/2021/image-20230503230242516.png">
-<meta property="og:image" content="http://franktjp.com/2021/image-20230503230145731.png">
-<meta property="og:image" content="http://franktjp.com/2021/image-20230503233739080.png">
-<meta property="og:image" content="http://franktjp.com/2021/image-20230504000304968.png">
-<meta property="og:image" content="http://franktjp.com/2021/image-20230504000142669.png">
-<meta property="article:published_time" content="2021-10-05T16:34:42.000Z">
-<meta property="article:modified_time" content="2023-04-11T15:01:42.000Z">
+<meta property="og:image" content="http://franktjp.com/2023/image-20230927235111057.png">
+<meta property="og:image" content="http://franktjp.com/2023/image-20230927235238743.png">
+<meta property="og:image" content="http://franktjp.com/2023/image-20230928000741479.png">
+<meta property="og:image" content="http://franktjp.com/2023/image-20230927235402899.png">
+<meta property="og:image" content="http://franktjp.com/2023/image-20230928001544537.png">
+<meta property="article:published_time" content="2023-10-06T04:34:07.127Z">
+<meta property="article:modified_time" content="2023-10-06T04:34:44.584Z">
 <meta property="article:author" content="Franktjp">
-<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://franktjp.com/2021/image-20230503230242516.png">
+<meta name="twitter:image" content="http://franktjp.com/2023/image-20230927235111057.png">
   
   
   
-  <title>如何用Hexo搭建博客 - 一个人流浪</title>
+  <title>一个人流浪</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -203,7 +202,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="如何用Hexo搭建博客"></span>
+            <span id="subtitle" data-typed-text=""></span>
           
         </div>
 
@@ -219,8 +218,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2021-10-06 00:34" pubdate>
-          2021年10月6日 凌晨
+        <time datetime="2023-10-06 12:34" pubdate>
+          2023年10月6日 下午
         </time>
       </span>
     
@@ -231,7 +230,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.6k 字
+          1.1k 字
         
       </span>
     
@@ -242,7 +241,7 @@
         
         
         
-          14 分钟
+          10 分钟
         
       </span>
     
@@ -280,93 +279,74 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">如何用Hexo搭建博客</h1>
+            <h1 style="display: none"></h1>
             
             
               <div class="markdown-body">
                 
-                <p>为什么要搭建博客？其实是闲的。</p>
-<span id="more"></span>
-
-<h2 id="从-0-到-1"><a href="#从-0-到-1" class="headerlink" title="从 0 到 1"></a>从 0 到 1</h2><p>从 0 开始用 GitHub + Hexo 搭建一个博客，除了用到的主题（next）很丑，没多少缺点。</p>
-<p>搭建时长：3h</p>
-<p>域名：franktjp.com</p>
-<p>参考：</p>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/102592286">从零开始搭建个人博客（超详细）</a>首选，还有很多可选项没尝试，浅尝辄止即可。</p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Candle_light/article/details/114992784">执行Hexo d报错Spawn failed， 以及OpenSSL SSL_read: Connection was reset, errno 10054</a>解决执行<code>hexo d</code>可能报错的问题，此外可能出现SSH的问题，谷歌即可。</p>
-<p><a target="_blank" rel="noopener" href="https://docs.github.com/cn/pages">GitHub Pages 文档</a>GitHub官网</p>
-<p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo 文档</a></p>
-<p><a target="_blank" rel="noopener" href="https://liam.page/">sz</a>一个案例</p>
-<h2 id="从-1-到-2"><a href="#从-1-到-2" class="headerlink" title="从 1 到 2"></a>从 1 到 2</h2><p>如何快速的使用Hexo写博客？</p>
-<p>参考：</p>
-<p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/writing">Hexo - 写作</a>quick start，首选！</p>
-<p><a target="_blank" rel="noopener" href="https://lfkid.github.io/">中二病也要玩 front end</a>写博客不错的例子。</p>
-<p><strong>好看的主题</strong></p>
-<p><a target="_blank" rel="noopener" href="https://github.com/amehime/hexo-theme-shoka/">Hexo 主题 Shoka</a>发现了一个非常非常好看的主题，但是有不少bug。</p>
-<p><a target="_blank" rel="noopener" href="https://asuhe.jp/">asuhe.jp</a>另外一个同样很好看的主题！</p>
-<p><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">hexo-theme-butterfly</a>TW、看起来挺好看、bug少、重</p>
-<p><a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery">hexo-theme-matery</a>相比butterfly有一点简陋，貌似bug有点多，好多issue</p>
-<p><a target="_blank" rel="noopener" href="http://blinkfox.com/">闪烁之狐</a></p>
-<p><a target="_blank" rel="noopener" href="https://esappear.github.io/clover/">一个非常简洁、清爽的主题</a></p>
-<h2 id="2-……"><a href="#2-……" class="headerlink" title="2 ……"></a>2 ……</h2><p>说到底还是配置站点配置文件和主题配置文件……</p>
-<blockquote>
-<p>因为现在使用的主题已经足够强大了，具体参考<a target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/docs/">Hexo Fluid 用户手册</a></p>
-</blockquote>
+                <h1 id="Docker入门"><a href="#Docker入门" class="headerlink" title="Docker入门"></a>Docker入门</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul>
+<li><p>为什么需要docker？</p>
+<p>不同物理机器可能配置完全不一样，即便都是Linux系统但是比如Ubuntu和CentOS也有差别，而对于测试、部署需要相同的环境（包括各种软件：数据库、web服务器等），所以需要一种工具来模拟完全相同的开发环境。</p>
+<p>虚拟机是一种思路，模拟硬件并运行整个OS，但是太过于笨重、性能低下、占用资源多。Docker和虚拟机类似，但是不模拟硬件，而是为每个应用提供完全隔离的运行环境，不同环境之间互不影响，这就是所谓的容器Container</p>
+<p><img src="/2023/image-20230927235111057.png" srcset="/img/loading.gif" lazyload alt="image-20230927235111057"></p>
+</li>
+<li><p>什么是Docker？</p>
+<p><strong>Docker 属于 Linux 容器的一种封装，提供简单易用的容器使用接口。</strong>它是目前最流行的 Linux 容器解决方案。</p>
+</li>
+<li><p>基本概念</p>
+<p><strong>Dockerfile</strong>、<strong>Image</strong>、<strong>Container</strong></p>
+<p><img src="/2023/image-20230927235238743.png" srcset="/img/loading.gif" lazyload alt="image-20230927235238743"></p>
+<p>Dockerfile：自动化脚本，用来创建镜像，案例如下：</p>
+<p><img src="/2023/image-20230928000741479.png" srcset="/img/loading.gif" lazyload alt="image-20230928000741479"></p>
+<p>Image镜像：虚拟机的快照，包含了所要部署的应用程序和需要的库。镜像可以看作容器的模板，通过镜像可以创建不同的容器，容器类似于不同的虚拟机，容器之间互不影响。<br><img src="/2023/image-20230927235402899.png" srcset="/img/loading.gif" lazyload alt="image-20230927235402899"></p>
+</li>
+</ul>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><ul>
+<li><p>Docker服务</p>
 <ul>
-<li><p>搜索功能</p>
-<p>配置algolia搜索功能，参考：<a target="_blank" rel="noopener" href="https://metang326.github.io/2017/11/13/[hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2]hexo%20next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AEalgolia%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD/">hexo next主题配置algolia搜索功能</a></p>
-<p>然后失败了</p>
+<li><code>sudo service docker start</code></li>
+<li><code>sudo systemctl start docker</code></li>
+</ul>
 </li>
-<li><p>评论系统</p>
-<p>博客使用的是<a target="_blank" rel="noopener" href="https://valine.js.org/">Valine</a></p>
-</li>
-<li><p>hexo中插入本地图片</p>
-<p>参考：<a target="_blank" rel="noopener" href="https://wangxiaoyu-go.github.io/2018/11/18/hexo-asset-image/">Hexo中插入图片hexo asset image</a></p>
-</li>
-<li><p>待办：</p>
+<li><p>镜像</p>
 <ul>
-<li>评论功能：使用GitHub的留言评论</li>
-<li>背景</li>
-<li>自动提交</li>
-<li>基础设置（用户名、个签……</li>
-<li>随机图库<a target="_blank" rel="noopener" href="https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/config/">https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/config/</a></li>
+<li><code>docker build ...</code>创建镜像</li>
+<li><code>docker image ls</code>列出本机的所有 image 文件</li>
+<li><code>docker image pull</code>将 image 文件从仓库抓取到本地</li>
+<li><code>docker image rm [imageName]</code>删除image</li>
+</ul>
+</li>
+<li><p>容器</p>
+<ul>
+<li><p><code>docker ps -a</code>列举所有容器</p>
+</li>
+<li><p><code>docker container run IMAGE_NAME</code>从image文件生成一个正在运行的容器实例</p>
+</li>
+<li><p><code>docker container start [containerID]</code>启动已经生成、已经停止运行的容器文件</p>
+</li>
+<li><p><code>docker container stop [containerID]</code>停止容器</p>
+</li>
+<li><p><code>docker container kill[containerID]</code>对于那些不会自动终止的容器，必须使用<a target="_blank" rel="noopener" href="https://docs.docker.com/engine/reference/commandline/container_kill/"><code>docker container kill</code></a> 命令手动终止容器。该命令和stop命令的区别在于向container中的进程发送的信号不同，具体见<a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html">阮一峰：Docker 入门教程</a></p>
+</li>
+<li><p><code>docker container restart [containerID]</code>重启容器</p>
+</li>
+<li><p><code>docker container attach</code>Attach local standard input, output, and error streams to a running container</p>
+</li>
+<li><p><code>docker container rm [containerID]</code>删除容器</p>
+</li>
 </ul>
 </li>
 </ul>
-<h2 id="在Ubuntu20-04上安装Hexo和创建博客"><a href="#在Ubuntu20-04上安装Hexo和创建博客" class="headerlink" title="在Ubuntu20.04上安装Hexo和创建博客"></a>在Ubuntu20.04上安装Hexo和创建博客</h2><blockquote>
-<p>因为开发环境从win系统迁移到了Ubuntu上，所以直接把博客迁过去吧。</p>
-</blockquote>
-<p>参考：<a target="_blank" rel="noopener" href="https://www.niuqi360.com/linux/install-and-create-blog-with-hexo-on-ubuntu-20-04/">如何在 Ubuntu 20.04 上使用 Hexo 安装和创建博客</a></p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>花了63大洋租了一个域名，有些鲁莽了，因为实在想不起别的好听的名字。</p>
-<ul>
-<li><p>hexo常用命令</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo init =&gt; 新建一个网站<br>$ hexo n <span class="hljs-string">&quot;博客名称&quot;</span>  =&gt; hexo new <span class="hljs-string">&quot;博客名称&quot;</span>   <span class="hljs-comment"># 创建新文章，前者是简写模式</span><br>$ hexo p  =&gt; hexo publish<br>$ hexo g  =&gt; hexo generate  <span class="hljs-comment"># 生成静态网页</span><br>$ hexo s  =&gt; hexo server  <span class="hljs-comment"># 启动服务预览</span><br>$ hexo d  =&gt; hexo deploy  <span class="hljs-comment"># 部署</span><br>$ hexo clean   <span class="hljs-comment">#清除缓存，网页正常情况下可以忽略此条命令</span><br>$ hexo clean &amp; hexo g &amp; hexo d	<span class="hljs-comment"># 一键式命令，其实只需要这三个即可</span><br></code></pre></td></tr></table></figure>
-
-<p>参考：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/dc416787f2cb">Hexo常用命令</a></p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
+<li><p>Docker和Kubernetes的区别和联系</p>
+<p><img src="/2023/image-20230928001544537.png" srcset="/img/loading.gif" lazyload alt="image-20230928001544537"></p>
 </li>
-<li><p>执行命令<code>hexo g</code>报错</p>
-<p><code>Error: ENOENT: no such file or directory, open &#39;themes/shoka/source/js/_app/utils.js&#39;</code></p>
-<p>实际上这个文件是存在的，而之前也没干啥坏事就遇到了这个错误。最后也能猜到，可能是路径的问题，因为报错信息表明这是一个相对路径，切换到根目录<code>D:/Blog</code>下执行，成功。</p>
-</li>
-<li><p>图片相对路径错误导致图片无法显示，如下</p>
-<p><img src="/2021/image-20230503230242516.png" srcset="/img/loading.gif" lazyload alt="image-20230503230242516"></p>
-<p>发现图片路径很奇怪：</p>
-<p><img src="/2021/image-20230503230145731.png" srcset="/img/loading.gif" lazyload alt="image-20230503230145731"></p>
-<p>正确的应该是：</p>
-<p><img src="/2021/image-20230503233739080.png" srcset="/img/loading.gif" lazyload alt="image-20230503233739080"></p>
-<p>发现hexo g时输出了奇怪的图片路径，想到使用<a target="_blank" rel="noopener" href="https://github.com/xcodebuild/hexo-asset-image">hexo-asset-image</a>插件，参考如下帖子，直接修改插件的index.js文件，解决：</p>
-<p><img src="/2021/image-20230504000304968.png" srcset="/img/loading.gif" lazyload alt="image-20230504000304968"></p>
-<p><img src="/2021/image-20230504000142669.png" srcset="/img/loading.gif" lazyload alt="image-20230504000142669"></p>
-<p>参考：<a target="_blank" rel="noopener" href="https://blog.iz4.cc/tutorial/2022/08/%E8%A7%A3%E5%86%B3hexo-asset-image%E5%9B%BE%E7%89%87%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E6%9B%BF%E6%8D%A2%E9%97%AE%E9%A2%98/">解决hexo-asset-image图片相对路径替换问题</a></p>
-</li>
-<li><p>npm命令相关</p>
-<p>TODO</p>
-<p><code>npm install hexo-asset-image --save</code><a target="_blank" rel="noopener" href="https://www.cnblogs.com/alex-xyl/p/13395338.html">npm安装模块时-g –save –save-dev有什么区别</a></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_41664096/article/details/121797260">npm查看已安装的包（全局、和本地）</a></p>
-</li>
-<li></li>
 </ul>
-
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a target="_blank" rel="noopener" href="https://docs.docker.com/engine/reference/commandline/container_attach/">Docker官方文档</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1s54y1n7Ev/">视频：Docker 10分钟快速入门</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html">阮一峰：Docker 入门教程</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/article/1481991528644643">廖雪峰：一文读懂Docker原理</a></p>
+<h2 id="The-End"><a href="#The-End" class="headerlink" title="The End"></a>The End</h2>
                 
               </div>
             
@@ -374,41 +354,6 @@
             <div>
               <div class="post-metas my-3">
   
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/%E5%85%B6%E4%BB%96/" class="category-chain-item">其他</a>
-  
-  
-    <span>></span>
-    
-  <a href="/categories/%E5%85%B6%E4%BB%96/%E5%8D%9A%E5%AE%A2/" class="category-chain-item">博客</a>
-  
-  
-
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
-  
-  
-    <div class="post-meta">
-      <i class="iconfont icon-tags"></i>
-      
-        <a href="/tags/%E5%8D%9A%E5%AE%A2/">#博客</a>
-      
-    </div>
   
 </div>
 
@@ -418,8 +363,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>如何用Hexo搭建博客</div>
-      <div>http://franktjp.com/2021/10/06/如何用Hexo搭建博客/</div>
+      <div></div>
+      <div>http://franktjp.com/2023/10/06/docker入门/</div>
     </div>
     <div class="license-meta">
       
@@ -431,7 +376,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2021年10月6日</div>
+          <div>2023年10月6日</div>
         </div>
       
       
@@ -463,18 +408,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/10/06/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/" title="设计模式 - 单例模式">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">设计模式 - 单例模式</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/10/05/%E7%AE%80%E5%8E%86/" title="简历">
-                        <span class="hidden-mobile">简历</span>
+                      <a href="/2023/10/06/hello-world/" title="Hello World">
+                        <span class="hidden-mobile">Hello World</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
