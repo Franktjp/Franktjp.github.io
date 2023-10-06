@@ -23,16 +23,16 @@
 <meta property="og:site_name" content="一个人流浪">
 <meta property="og:description" content="Docker入门简介 为什么需要docker？ 不同物理机器可能配置完全不一样，即便都是Linux系统但是比如Ubuntu和CentOS也有差别，而对于测试、部署需要相同的环境（包括各种软件：数据库、web服务器等），所以需要一种工具来模拟完全相同的开发环境。 虚拟机是一种思路，模拟硬件并运行整个OS，但是太过于笨重、性能低下、占用资源多。Docker和虚拟机类似，但是不模拟硬件，而是为每个应用提">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://franktjp.com/2023/image-20230927235111057.png">
-<meta property="og:image" content="http://franktjp.com/2023/image-20230927235238743.png">
-<meta property="og:image" content="http://franktjp.com/2023/image-20230928000741479.png">
-<meta property="og:image" content="http://franktjp.com/2023/image-20230927235402899.png">
-<meta property="og:image" content="http://franktjp.com/2023/image-20230928001544537.png">
+<meta property="og:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235111057.png">
+<meta property="og:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235238743.png">
+<meta property="og:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230928000741479.png">
+<meta property="og:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235402899.png">
+<meta property="og:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230928001544537.png">
 <meta property="article:published_time" content="2023-10-06T04:34:07.127Z">
 <meta property="article:modified_time" content="2023-10-06T04:34:44.584Z">
 <meta property="article:author" content="Franktjp">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://franktjp.com/2023/image-20230927235111057.png">
+<meta name="twitter:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235111057.png">
   
   
   
@@ -288,17 +288,17 @@
 <li><p>为什么需要docker？</p>
 <p>不同物理机器可能配置完全不一样，即便都是Linux系统但是比如Ubuntu和CentOS也有差别，而对于测试、部署需要相同的环境（包括各种软件：数据库、web服务器等），所以需要一种工具来模拟完全相同的开发环境。</p>
 <p>虚拟机是一种思路，模拟硬件并运行整个OS，但是太过于笨重、性能低下、占用资源多。Docker和虚拟机类似，但是不模拟硬件，而是为每个应用提供完全隔离的运行环境，不同环境之间互不影响，这就是所谓的容器Container</p>
-<p><img src="/2023/image-20230927235111057.png" srcset="/img/loading.gif" lazyload alt="image-20230927235111057"></p>
+<p><img src="/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235111057.png" srcset="/img/loading.gif" lazyload alt="image-20230927235111057"></p>
 </li>
 <li><p>什么是Docker？</p>
 <p><strong>Docker 属于 Linux 容器的一种封装，提供简单易用的容器使用接口。</strong>它是目前最流行的 Linux 容器解决方案。</p>
 </li>
 <li><p>基本概念</p>
 <p><strong>Dockerfile</strong>、<strong>Image</strong>、<strong>Container</strong></p>
-<p><img src="/2023/image-20230927235238743.png" srcset="/img/loading.gif" lazyload alt="image-20230927235238743"></p>
+<p><img src="/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235238743.png" srcset="/img/loading.gif" lazyload alt="image-20230927235238743"></p>
 <p>Dockerfile：自动化脚本，用来创建镜像，案例如下：</p>
-<p><img src="/2023/image-20230928000741479.png" srcset="/img/loading.gif" lazyload alt="image-20230928000741479"></p>
-<p>Image镜像：虚拟机的快照，包含了所要部署的应用程序和需要的库。镜像可以看作容器的模板，通过镜像可以创建不同的容器，容器类似于不同的虚拟机，容器之间互不影响。<br><img src="/2023/image-20230927235402899.png" srcset="/img/loading.gif" lazyload alt="image-20230927235402899"></p>
+<p><img src="/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230928000741479.png" srcset="/img/loading.gif" lazyload alt="image-20230928000741479"></p>
+<p>Image镜像：虚拟机的快照，包含了所要部署的应用程序和需要的库。镜像可以看作容器的模板，通过镜像可以创建不同的容器，容器类似于不同的虚拟机，容器之间互不影响。<br><img src="/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235402899.png" srcset="/img/loading.gif" lazyload alt="image-20230927235402899"></p>
 </li>
 </ul>
 <h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><ul>
@@ -339,7 +339,7 @@
 </ul>
 <h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
 <li><p>Docker和Kubernetes的区别和联系</p>
-<p><img src="/2023/image-20230928001544537.png" srcset="/img/loading.gif" lazyload alt="image-20230928001544537"></p>
+<p><img src="/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230928001544537.png" srcset="/img/loading.gif" lazyload alt="image-20230928001544537"></p>
 </li>
 </ul>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a target="_blank" rel="noopener" href="https://docs.docker.com/engine/reference/commandline/container_attach/">Docker官方文档</a></p>
