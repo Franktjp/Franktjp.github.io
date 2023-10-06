@@ -16,27 +16,28 @@
   <meta name="author" content="Franktjp">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Docker入门简介 为什么需要docker？ 不同物理机器可能配置完全不一样，即便都是Linux系统但是比如Ubuntu和CentOS也有差别，而对于测试、部署需要相同的环境（包括各种软件：数据库、web服务器等），所以需要一种工具来模拟完全相同的开发环境。 虚拟机是一种思路，模拟硬件并运行整个OS，但是太过于笨重、性能低下、占用资源多。Docker和虚拟机类似，但是不模拟硬件，而是为每个应用提">
+    <meta name="description" content="简介 为什么需要docker？ 不同物理机器可能配置完全不一样，即便都是Linux系统但是比如Ubuntu和CentOS也有差别，而对于测试、部署需要相同的环境（包括各种软件：数据库、web服务器等），所以需要一种工具来模拟完全相同的开发环境。 虚拟机是一种思路，模拟硬件并运行整个OS，但是太过于笨重、性能低下、占用资源多。Docker和虚拟机类似，但是不模拟硬件，而是为每个应用提供完全隔离的运行">
 <meta property="og:type" content="article">
-<meta property="og:title" content="一个人流浪">
+<meta property="og:title" content="Docker入门">
 <meta property="og:url" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/index.html">
 <meta property="og:site_name" content="一个人流浪">
-<meta property="og:description" content="Docker入门简介 为什么需要docker？ 不同物理机器可能配置完全不一样，即便都是Linux系统但是比如Ubuntu和CentOS也有差别，而对于测试、部署需要相同的环境（包括各种软件：数据库、web服务器等），所以需要一种工具来模拟完全相同的开发环境。 虚拟机是一种思路，模拟硬件并运行整个OS，但是太过于笨重、性能低下、占用资源多。Docker和虚拟机类似，但是不模拟硬件，而是为每个应用提">
+<meta property="og:description" content="简介 为什么需要docker？ 不同物理机器可能配置完全不一样，即便都是Linux系统但是比如Ubuntu和CentOS也有差别，而对于测试、部署需要相同的环境（包括各种软件：数据库、web服务器等），所以需要一种工具来模拟完全相同的开发环境。 虚拟机是一种思路，模拟硬件并运行整个OS，但是太过于笨重、性能低下、占用资源多。Docker和虚拟机类似，但是不模拟硬件，而是为每个应用提供完全隔离的运行">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235111057.png">
 <meta property="og:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235238743.png">
 <meta property="og:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230928000741479.png">
 <meta property="og:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235402899.png">
 <meta property="og:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230928001544537.png">
-<meta property="article:published_time" content="2023-10-06T04:34:07.127Z">
-<meta property="article:modified_time" content="2023-10-06T04:34:44.584Z">
+<meta property="article:published_time" content="2023-10-05T16:34:42.000Z">
+<meta property="article:modified_time" content="2023-10-06T08:48:00.669Z">
 <meta property="article:author" content="Franktjp">
+<meta property="article:tag" content="Docker">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235111057.png">
   
   
   
-  <title>一个人流浪</title>
+  <title>Docker入门 - 一个人流浪</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -202,7 +203,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text=""></span>
+            <span id="subtitle" data-typed-text="Docker入门"></span>
           
         </div>
 
@@ -218,8 +219,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-10-06 12:34" pubdate>
-          2023年10月6日 下午
+        <time datetime="2023-10-06 00:34" pubdate>
+          2023年10月6日 凌晨
         </time>
       </span>
     
@@ -279,12 +280,12 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none"></h1>
+            <h1 style="display: none">Docker入门</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="Docker入门"><a href="#Docker入门" class="headerlink" title="Docker入门"></a>Docker入门</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul>
+                <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul>
 <li><p>为什么需要docker？</p>
 <p>不同物理机器可能配置完全不一样，即便都是Linux系统但是比如Ubuntu和CentOS也有差别，而对于测试、部署需要相同的环境（包括各种软件：数据库、web服务器等），所以需要一种工具来模拟完全相同的开发环境。</p>
 <p>虚拟机是一种思路，模拟硬件并运行整个OS，但是太过于笨重、性能低下、占用资源多。Docker和虚拟机类似，但是不模拟硬件，而是为每个应用提供完全隔离的运行环境，不同环境之间互不影响，这就是所谓的容器Container</p>
@@ -354,6 +355,41 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/tools/" class="category-chain-item">tools</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/tools/Docker/" class="category-chain-item">Docker</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/Docker/">#Docker</a>
+      
+    </div>
   
 </div>
 
@@ -363,7 +399,7 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div></div>
+      <div>Docker入门</div>
       <div>http://franktjp.com/2023/10/06/docker入门/</div>
     </div>
     <div class="license-meta">
@@ -408,12 +444,18 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/2023/10/06/hello-world/" title="Hello World">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Hello World</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/10/06/hello-world/" title="Hello World">
-                        <span class="hidden-mobile">Hello World</span>
+                      <a href="/2023/05/08/%E5%85%A5%E8%81%8C%E4%B8%80%E5%91%A8%E5%B9%B4%E6%80%BB%E7%BB%93/" title="入职一周年总结">
+                        <span class="hidden-mobile">入职一周年总结</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
