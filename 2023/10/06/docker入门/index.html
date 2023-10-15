@@ -29,7 +29,7 @@
 <meta property="og:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235402899.png">
 <meta property="og:image" content="http://franktjp.com/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230928001544537.png">
 <meta property="article:published_time" content="2023-10-05T16:34:42.000Z">
-<meta property="article:modified_time" content="2023-10-06T08:48:00.669Z">
+<meta property="article:modified_time" content="2023-10-14T17:22:57.091Z">
 <meta property="article:author" content="Franktjp">
 <meta property="article:tag" content="Docker">
 <meta name="twitter:card" content="summary_large_image">
@@ -231,7 +231,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.1k 字
+          1.6k 字
         
       </span>
     
@@ -242,7 +242,7 @@
         
         
         
-          10 分钟
+          14 分钟
         
       </span>
     
@@ -297,7 +297,7 @@
 <li><p>基本概念</p>
 <p><strong>Dockerfile</strong>、<strong>Image</strong>、<strong>Container</strong></p>
 <p><img src="/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235238743.png" srcset="/img/loading.gif" lazyload alt="image-20230927235238743"></p>
-<p>Dockerfile：自动化脚本，用来创建镜像，案例如下：</p>
+<p>Dockerfile：用来构建镜像（Image）的自动化脚本，文本内容包含了一条条构建镜像所需的指令和说明，案例如下：</p>
 <p><img src="/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230928000741479.png" srcset="/img/loading.gif" lazyload alt="image-20230928000741479"></p>
 <p>Image镜像：虚拟机的快照，包含了所要部署的应用程序和需要的库。镜像可以看作容器的模板，通过镜像可以创建不同的容器，容器类似于不同的虚拟机，容器之间互不影响。<br><img src="/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230927235402899.png" srcset="/img/loading.gif" lazyload alt="image-20230927235402899"></p>
 </li>
@@ -311,17 +311,23 @@
 </li>
 <li><p>镜像</p>
 <ul>
-<li><code>docker build ...</code>创建镜像</li>
-<li><code>docker image ls</code>列出本机的所有 image 文件</li>
-<li><code>docker image pull</code>将 image 文件从仓库抓取到本地</li>
-<li><code>docker image rm [imageName]</code>删除image</li>
+<li><p><code>docker build /path/to/a/Dockerfile </code>Build an image from a Dockerfile即根据Dockerfile创建镜像，如下：</p>
+<p>**<code>docker build . -t my-image</code>**：用于根据Dockerfile的内容构建镜像，<code>-t</code> 选项用于指定镜像名称，<code>my-image</code> 是你为镜像命名的名称，可以替换成其他任意名称。<code>.</code> 表示当前目录，指示 Docker 在当前目录下寻找 <code>Dockerfile</code> 文件。以下示例，通过目录下的 Dockerfile 构建一个 nginx:v3（镜像名称:镜像标签）<br><code>docker build . -t nginx:v3</code></p>
+</li>
+<li><p><code>docker image ls</code>列出本机的所有 image 文件</p>
+</li>
+<li><p>**<code>docker image pull</code>**将 image 文件从仓库抓取到本地</p>
+</li>
+<li><p><code>docker image rm [imageName]</code>删除image</p>
+</li>
 </ul>
 </li>
 <li><p>容器</p>
 <ul>
-<li><p><code>docker ps -a</code>列举所有容器</p>
+<li><p><code>docker ps -a</code> or <code>docker container ls</code>列举所有容器</p>
 </li>
-<li><p><code>docker container run IMAGE_NAME</code>从image文件生成一个正在运行的容器实例</p>
+<li><p>**<code>docker container run --name container_name IMAGE_NAME</code>**从image文件生成一个正在运行的容器实例，–name指定生成的容器名称，container可以不写，即<code>docker run ...</code></p>
+<p>TODO：<code>docker run -it IMAGE_NAME[:TAG]</code></p>
 </li>
 <li><p><code>docker container start [containerID]</code>启动已经生成、已经停止运行的容器文件</p>
 </li>
@@ -331,7 +337,7 @@
 </li>
 <li><p><code>docker container restart [containerID]</code>重启容器</p>
 </li>
-<li><p><code>docker container attach</code>Attach local standard input, output, and error streams to a running container</p>
+<li><p>**<code>docker container attach</code>**Attach local standard input, output, and error streams to a running container</p>
 </li>
 <li><p><code>docker container rm [containerID]</code>删除容器</p>
 </li>
@@ -341,6 +347,8 @@
 <h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
 <li><p>Docker和Kubernetes的区别和联系</p>
 <p><img src="/2023/10/06/docker%E5%85%A5%E9%97%A8/image-20230928001544537.png" srcset="/img/loading.gif" lazyload alt="image-20230928001544537"></p>
+</li>
+<li><p>实例：<a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html">运行一个hello-world</a></p>
 </li>
 </ul>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a target="_blank" rel="noopener" href="https://docs.docker.com/engine/reference/commandline/container_attach/">Docker官方文档</a></p>
