@@ -16,30 +16,22 @@
   <meta name="author" content="Franktjp">
   <meta name="keywords" content="">
   
-    <meta name="description" content="为什么学习Vim Vim熟练后效率超高 服务器上编辑配置文件、写代码必备Vim(当然也可以Vscode远程登录到服务器) Vim优点 简洁 扩展性强   Vim缺点 Vim哲学：一切操作都可以使用键盘完成 更加推荐使用Spacevim，在vim和neovim的基础上整合了很多好用的插件，而且快捷键提示也非常人性化，非常容易上手  Neovim 安装Neovim：sudo apt-get insta">
+    <meta name="description" content="TODO:还没写完呢 Tmux是什么？ 会话（session）：用户打开终端窗口与计算机进行交互，这种交互是临时的，如果关闭窗口那么会话结束，会话内部的进程也会终止。  为了让会话与窗口进行解绑：窗口关闭，此时会话并不终止，并在之后需要时让会话绑定其他窗口。  Tmux即会话与窗口解绑的工具：  （1）它允许在单个窗口中，同时访问多个会话。这对于同时运行多个命令行程序很有用。 （2） 它可以让新窗">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Vim入门">
-<meta property="og:url" content="http://franktjp.com/2023/10/06/Vim%E5%85%A5%E9%97%A8/index.html">
+<meta property="og:title" content="Tmux入门">
+<meta property="og:url" content="http://franktjp.com/2023/11/05/Tmux%E5%85%A5%E9%97%A8/index.html">
 <meta property="og:site_name" content="一个人流浪">
-<meta property="og:description" content="为什么学习Vim Vim熟练后效率超高 服务器上编辑配置文件、写代码必备Vim(当然也可以Vscode远程登录到服务器) Vim优点 简洁 扩展性强   Vim缺点 Vim哲学：一切操作都可以使用键盘完成 更加推荐使用Spacevim，在vim和neovim的基础上整合了很多好用的插件，而且快捷键提示也非常人性化，非常容易上手  Neovim 安装Neovim：sudo apt-get insta">
+<meta property="og:description" content="TODO:还没写完呢 Tmux是什么？ 会话（session）：用户打开终端窗口与计算机进行交互，这种交互是临时的，如果关闭窗口那么会话结束，会话内部的进程也会终止。  为了让会话与窗口进行解绑：窗口关闭，此时会话并不终止，并在之后需要时让会话绑定其他窗口。  Tmux即会话与窗口解绑的工具：  （1）它允许在单个窗口中，同时访问多个会话。这对于同时运行多个命令行程序很有用。 （2） 它可以让新窗">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://franktjp.com/2023/10/06/Vim%E5%85%A5%E9%97%A8/classic1.gif">
-<meta property="og:image" content="http://franktjp.com/2023/10/06/Vim%E5%85%A5%E9%97%A8/vi-vim-cheat-sheet-sch1.gif">
-<meta property="og:image" content="http://franktjp.com/2023/10/06/Vim%E5%85%A5%E9%97%A8/image-20231007010307361.png">
-<meta property="og:image" content="http://franktjp.com/2023/10/06/Vim%E5%85%A5%E9%97%A8/image-20231007010412080.png">
-<meta property="og:image" content="http://franktjp.com/2023/10/06/Vim%E5%85%A5%E9%97%A8/image-20231007010535620.png">
-<meta property="og:image" content="http://franktjp.com/2023/10/06/Vim%E5%85%A5%E9%97%A8/image-20231007010614355.png">
-<meta property="og:image" content="http://franktjp.com/2023/10/06/Vim%E5%85%A5%E9%97%A8/image-20231007011110510.png">
-<meta property="article:published_time" content="2023-10-06T08:54:29.000Z">
-<meta property="article:modified_time" content="2023-10-15T03:07:48.529Z">
+<meta property="article:published_time" content="2023-11-05T09:22:30.000Z">
+<meta property="article:modified_time" content="2023-11-05T16:49:53.211Z">
 <meta property="article:author" content="Franktjp">
-<meta property="article:tag" content="Vim">
+<meta property="article:tag" content="tmux">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://franktjp.com/2023/10/06/Vim%E5%85%A5%E9%97%A8/classic1.gif">
   
   
   
-  <title>Vim入门 - 一个人流浪</title>
+  <title>Tmux入门 - 一个人流浪</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -205,7 +197,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Vim入门"></span>
+            <span id="subtitle" data-typed-text="Tmux入门"></span>
           
         </div>
 
@@ -221,8 +213,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-10-06 16:54" pubdate>
-          2023年10月6日 下午
+        <time datetime="2023-11-05 17:22" pubdate>
+          2023年11月5日 下午
         </time>
       </span>
     
@@ -233,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.6k 字
+          612 字
         
       </span>
     
@@ -244,7 +236,7 @@
         
         
         
-          14 分钟
+          6 分钟
         
       </span>
     
@@ -282,131 +274,55 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Vim入门</h1>
+            <h1 style="display: none">Tmux入门</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="为什么学习Vim"><a href="#为什么学习Vim" class="headerlink" title="为什么学习Vim"></a>为什么学习Vim</h2><ul>
-<li>Vim熟练后效率超高</li>
-<li>服务器上编辑配置文件、写代码必备Vim(当然也可以Vscode远程登录到服务器)</li>
-<li>Vim优点<ul>
-<li>简洁</li>
-<li>扩展性强</li>
-</ul>
+                <p>TODO:还没写完呢</p>
+<h2 id="Tmux是什么？"><a href="#Tmux是什么？" class="headerlink" title="Tmux是什么？"></a>Tmux是什么？</h2><ul>
+<li><p>会话（session）：用户打开终端窗口与计算机进行交互，这种交互是临时的，如果关闭窗口那么会话结束，会话内部的进程也会终止。</p>
 </li>
-<li>Vim缺点</li>
-<li>Vim哲学：一切操作都可以使用键盘完成</li>
-<li>更加推荐使用Spacevim，在vim和neovim的基础上整合了很多好用的<strong>插件</strong>，而且<strong>快捷键提示</strong>也非常人性化，非常容易上手</li>
-</ul>
-<h2 id="Neovim"><a href="#Neovim" class="headerlink" title="Neovim"></a>Neovim</h2><ul>
-<li>安装Neovim：<code>sudo apt-get install neovim</code></li>
-<li>TODO: Neovim和Vim的区别和联系</li>
-</ul>
-<h2 id="Vim的工作模式"><a href="#Vim的工作模式" class="headerlink" title="Vim的工作模式"></a>Vim的工作模式</h2><blockquote>
-<ul>
-<li>Vim不同工作模式之间的切换形成状态机。</li>
-<li>最常用的是普通模式。</li>
-</ul>
+<li><p>为了让会话与窗口进行解绑：窗口关闭，此时会话并不终止，并在之后需要时让会话绑定其他窗口。</p>
+</li>
+<li><p>Tmux即会话与窗口解绑的工具：</p>
+<blockquote>
+<p>（1）它允许在单个窗口中，同时访问多个会话。这对于同时运行多个命令行程序很有用。</p>
+<p>（2） 它可以让新窗口”接入”已经存在的会话。</p>
+<p>（3）它允许每个会话有多个连接窗口，因此可以多人实时共享会话。</p>
+<p>（4）它还支持窗口任意的垂直和水平拆分。</p>
 </blockquote>
-<h3 id="普通模式"><a href="#普通模式" class="headerlink" title="普通模式"></a>普通模式</h3><blockquote>
-<p>用来浏览文件、复制粘贴、删除。最常用的一种模式。</p>
-</blockquote>
-<ul>
-<li>光标移动<br>上下左右箭头<br><code>h</code>、<code>j</code>、<code>k</code>、<code>l</code>(分别代表上下左右)<br><code>4h</code>表示向上移动4行<br><code>w</code>(word)跳到下一个单词的开头<br><code>b</code>(begining)跳到单词开头<br><code>gg</code>跳到文档首行，对应Home键<br><code>G</code>跳到文档末尾<br><code>Ctrl+D</code>(Page Down)下一页<br><code>Ctrl+U</code>(Page Up)上一页<br><code>f(find)+字母</code>：移动到字母的位置，但是好像只能作用于一行<br><code>$</code>移动到行尾<br><code>^</code>移动到行首(但是用起来好难用，因为需要使用Shift键)</li>
-<li>复制粘贴<br><code>y</code>：复制，y后面可以跟很多命令<br><code>yy</code>：复制当前行<br><code>yaw</code>(yank拉 all word)：复制整个单词<br><code>y4j</code>：复制包括当前行在内向下的4行<br><code>p</code>(paste)：粘贴</li>
-<li>删除：<code>d</code>(delete)<br><code>dd</code>：删除<strong>当前行</strong><br><code>dj</code>：删除当前行和下一行<br><code>d8j</code>：删除当前行和下8行</li>
-<li>撤销：<code>u</code>(undo)</li>
-<li>重做：<code>Ctrl+r</code>(redo)</li>
-</ul>
-<h3 id="输入模式"><a href="#输入模式" class="headerlink" title="输入模式"></a>输入模式</h3><blockquote>
-<ul>
-<li>普通模式下输入i(input)进入输入模式</li>
-<li>按esc键进入普通模式</li>
-<li><code>c</code>是进入输入模式的一种方式</li>
-</ul>
-</blockquote>
-<ul>
-<li><code>i</code>(input)：当前光标前一个字母开始输入</li>
-<li><code>a</code>(append)：……下一个字母……</li>
-<li><code>I</code>(大写i)：当前行开始……</li>
-<li><code>A</code>：当前行末尾……</li>
-<li><code>c4j</code>：删除当前行和以下4行并进入输入模式</li>
-<li><code>caw</code>(change all word)：删除当前word并进入输入模式</li>
-<li><code>cc</code>：删除<strong>当前行</strong>并进入输入模式</li>
-<li><code>o</code>：插入一行，向下移动光标，并进入输入模式</li>
-<li><code>O</code>：插入一行，将当前行下移一行，并进入输入模式</li>
-</ul>
-<h3 id="命令模式"><a href="#命令模式" class="headerlink" title="命令模式"></a>命令模式</h3><blockquote>
-<ul>
-<li>输入一些指令，如<code>q</code>、<code>wq!</code>等，完成保存、退出等操作</li>
-<li>普通模式下输入<code>:</code>进入命令模式</li>
-</ul>
-</blockquote>
-<ul>
-<li>常用命令：<code>q</code>(quit)、<code>w</code>(write)</li>
-</ul>
-<h3 id="可视模式"><a href="#可视模式" class="headerlink" title="可视模式"></a>可视模式</h3><blockquote>
-<ul>
-<li>该模式用来选择一些内容，然后按y复制、d删除、c删除并进入输入模式</li>
-<li>普通模式下按<code>v</code>进入可视模式</li>
-<li>显然，可视模式极大的增强了普通模式的功能，因为普通模式下只能选择特定的word、line</li>
-</ul>
-</blockquote>
-<h2 id="Vim命令"><a href="#Vim命令" class="headerlink" title="Vim命令"></a>Vim命令</h2><p><img src="/2023/10/06/Vim%E5%85%A5%E9%97%A8/classic1.gif" srcset="/img/loading.gif" lazyload alt="img"></p>
-<p><img src="/2023/10/06/Vim%E5%85%A5%E9%97%A8/vi-vim-cheat-sheet-sch1.gif" srcset="/img/loading.gif" lazyload alt="img"></p>
-<h2 id="Vim基础配置-修改键位-插件"><a href="#Vim基础配置-修改键位-插件" class="headerlink" title="Vim基础配置 &amp; 修改键位 &amp; 插件"></a>Vim基础配置 &amp; 修改键位 &amp; 插件</h2><blockquote>
-<ul>
-<li><p>Vim配置文件：*.vimrc*</p>
-</li>
-<li><p>Neovim配置文件：自行创建，如下</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">mkdir ~/.config/nvim<br>nvim ~/.config/nvim/init.vim<br></code></pre></td></tr></table></figure></li>
-</ul>
-</blockquote>
-<h3 id="修改常见键位"><a href="#修改常见键位" class="headerlink" title="修改常见键位"></a>修改常见键位</h3><blockquote>
-<p>为什么要修改键位：<code>Esc</code>、<code>Ctrl</code>键位置不合理</p>
-</blockquote>
-<ul>
-<li><code>&lt;Esc&gt;</code>：<code>imap jk &lt;Esc&gt;</code>：imap即insert map</li>
-<li><code>&lt;space&gt;</code>：<code>nmap &lt;space&gt; :</code>：nmap即normal map，把<space>改为:</space></li>
-</ul>
-<h3 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h3><ul>
-<li><p>插件市场：<a target="_blank" rel="noopener" href="https://vimawesome.com/">VimAwesome</a></p>
-</li>
-<li><p>以<code>The NERD Tree</code>插件为例，安装方式建议使用<strong>VimPlug</strong></p>
-<ul>
-<li><p><a target="_blank" rel="noopener" href="https://github.com/junegunn/vim-plug">安装Vimplug(NeoVim)</a></p>
-</li>
-<li><p>修改配置文件，如下(右图)</p>
-<p><img src="/2023/10/06/Vim%E5%85%A5%E9%97%A8/image-20231007010307361.png" srcset="/img/loading.gif" lazyload alt="image-20231007010307361"></p>
-</li>
-<li><p>按照VimAwesome中的提示进行安装，Done</p>
-<p><img src="/2023/10/06/Vim%E5%85%A5%E9%97%A8/image-20231007010412080.png" srcset="/img/loading.gif" lazyload alt="image-20231007010412080"></p>
-</li>
-<li><p>使用插件</p>
-<p>命令模式下直接tab键，选择第一个：</p>
-<p><img src="/2023/10/06/Vim%E5%85%A5%E9%97%A8/image-20231007010535620.png" srcset="/img/loading.gif" lazyload alt="image-20231007010535620"></p>
-<p>最后左侧出现目录：</p>
-<p><img src="/2023/10/06/Vim%E5%85%A5%E9%97%A8/image-20231007010614355.png" srcset="/img/loading.gif" lazyload alt="image-20231007010614355"></p>
-</li>
-<li><p>NERD Tree使用</p>
-<p><code>o</code>打开&#x2F;关闭目录，打开文件（关闭文件还是使用<code>:q</code>）</p>
-</li>
-<li><p>快捷键设置</p>
-<p><code>:NERDTreeToggle</code>命令用来关闭文件浏览器，那么肯定是使用快捷键更方便</p>
-<p><code>map &lt;silent&gt; &lt;C-e&gt; :NERDTreeToggle&lt;CR&gt;</code>：把<code>NERDTree</code>绑定在快捷键<code>Ctrl-e</code>上面</p>
-</li>
-<li><p><img src="/2023/10/06/Vim%E5%85%A5%E9%97%A8/image-20231007011110510.png" srcset="/img/loading.gif" lazyload alt="image-20231007011110510"></p>
 </li>
 </ul>
-</li>
-<li><p>参考的插件配置</p>
-<p><a target="_blank" rel="noopener" href="https://github.com/MarsWang42/My-Vim-Conf">https://github.com/MarsWang42/My-Vim-Conf</a></p>
+<h2 id="Tmux快捷键"><a href="#Tmux快捷键" class="headerlink" title="Tmux快捷键"></a>Tmux快捷键</h2><ul>
+<li><p>前缀键</p>
+<p>Tmux 窗口有大量的快捷键。所有快捷键都要通过前缀键唤起。默认的前缀键是<code>Ctrl+b</code>，即先按下<code>Ctrl+b</code>，快捷键才会生效。<br>举例来说，帮助命令的快捷键是<code>Ctrl+b ?</code>。它的用法是，在 Tmux 窗口中，先按下<code>Ctrl+b</code>，再按下<code>?</code>，就会显示帮助信息。</p>
 </li>
 </ul>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1UQ4y1z7q5/">最强Vim新手指南，手把手教你打造只属于自己的代码编辑器！</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.runoob.com/w3cnote/all-vim-cheatsheat.html">史上最全Vim快捷键键位图（入门到进阶）</a></p>
-<h2 id="The-Ends"><a href="#The-Ends" class="headerlink" title="The Ends"></a>The Ends</h2>
+<h2 id="Tmux会话管理"><a href="#Tmux会话管理" class="headerlink" title="Tmux会话管理"></a>Tmux会话管理</h2><ul>
+<li><p>创建session</p>
+<p><code>tmux new -s [session_name]</code></p>
+</li>
+<li><p>分离会话</p>
+<p><strong><code>Ctrl+b d</code></strong> or <code>tmux detach</code></p>
+</li>
+<li><p>显示所有会话</p>
+<p><code>tmux ls</code></p>
+</li>
+<li><p>接入会话</p>
+<p><code>tmux attach -t [session_number]</code> or <code>tmux attach -t [session_name]</code></p>
+</li>
+<li><p>杀死会话</p>
+<p><code>tmux kill-session -t [session_number]</code> or <code>tmux kill-session</code></p>
+</li>
+<li><p>切换会话</p>
+<p><code>tmux switch -t ..</code></p>
+</li>
+</ul>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/2019/10/tmux.html">Tmux 使用教程</a></li>
+</ul>
+<h2 id="The-End"><a href="#The-End" class="headerlink" title="The End"></a>The End</h2>
                 
               </div>
             
@@ -429,7 +345,7 @@
   
     <span>></span>
     
-  <a href="/categories/tools/Vim/" class="category-chain-item">Vim</a>
+  <a href="/categories/tools/tmux/" class="category-chain-item">tmux</a>
   
   
 
@@ -446,7 +362,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Vim/">#Vim</a>
+        <a href="/tags/tmux/">#tmux</a>
       
     </div>
   
@@ -458,8 +374,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Vim入门</div>
-      <div>http://franktjp.com/2023/10/06/Vim入门/</div>
+      <div>Tmux入门</div>
+      <div>http://franktjp.com/2023/11/05/Tmux入门/</div>
     </div>
     <div class="license-meta">
       
@@ -471,7 +387,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年10月6日</div>
+          <div>2023年11月5日</div>
         </div>
       
       
@@ -503,9 +419,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/10/07/%E6%8C%82%E8%BD%BD/" title="挂载">
+                      <a href="/2023/11/05/oh-my-zsh%E5%85%A5%E9%97%A8/" title="oh-my-zsh入门">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">挂载</span>
+                        <span class="hidden-mobile">oh-my-zsh入门</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -513,8 +429,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/10/06/docker%E5%85%A5%E9%97%A8/" title="Docker入门">
-                        <span class="hidden-mobile">Docker入门</span>
+                      <a href="/2023/10/07/SpaceVim%E5%85%A5%E9%97%A8/" title="SpaceVim入门">
+                        <span class="hidden-mobile">SpaceVim入门</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
