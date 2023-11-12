@@ -16,15 +16,15 @@
   <meta name="author" content="Franktjp">
   <meta name="keywords" content="">
   
-    <meta name="description" content="TODO:还没写完呢 Tmux是什么？ 会话（session）：用户打开终端窗口与计算机进行交互，这种交互是临时的，如果关闭窗口那么会话结束，会话内部的进程也会终止。  为了让会话与窗口进行解绑：窗口关闭，此时会话并不终止，并在之后需要时让会话绑定其他窗口。  Tmux即会话与窗口解绑的工具：  （1）它允许在单个窗口中，同时访问多个会话。这对于同时运行多个命令行程序很有用。 （2） 它可以让新窗">
+    <meta name="description" content="Tmux是什么？ 会话（session）：用户打开终端窗口与计算机进行交互，这种交互是临时的，如果关闭窗口那么会话结束，会话内部的进程也会终止。  为了让会话与窗口进行解绑：窗口关闭，此时会话并不终止，并在之后需要时让会话绑定其他窗口。  Tmux即会话与窗口解绑的工具：  （1）它允许在单个窗口中，同时访问多个会话。这对于同时运行多个命令行程序很有用。 （2） 它可以让新窗口”接入”已经存在的会">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Tmux入门">
 <meta property="og:url" content="http://franktjp.com/2023/11/05/Tmux%E5%85%A5%E9%97%A8/index.html">
 <meta property="og:site_name" content="一个人流浪">
-<meta property="og:description" content="TODO:还没写完呢 Tmux是什么？ 会话（session）：用户打开终端窗口与计算机进行交互，这种交互是临时的，如果关闭窗口那么会话结束，会话内部的进程也会终止。  为了让会话与窗口进行解绑：窗口关闭，此时会话并不终止，并在之后需要时让会话绑定其他窗口。  Tmux即会话与窗口解绑的工具：  （1）它允许在单个窗口中，同时访问多个会话。这对于同时运行多个命令行程序很有用。 （2） 它可以让新窗">
+<meta property="og:description" content="Tmux是什么？ 会话（session）：用户打开终端窗口与计算机进行交互，这种交互是临时的，如果关闭窗口那么会话结束，会话内部的进程也会终止。  为了让会话与窗口进行解绑：窗口关闭，此时会话并不终止，并在之后需要时让会话绑定其他窗口。  Tmux即会话与窗口解绑的工具：  （1）它允许在单个窗口中，同时访问多个会话。这对于同时运行多个命令行程序很有用。 （2） 它可以让新窗口”接入”已经存在的会">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-11-05T09:22:30.000Z">
-<meta property="article:modified_time" content="2023-11-05T16:49:53.211Z">
+<meta property="article:modified_time" content="2023-11-12T15:34:08.881Z">
 <meta property="article:author" content="Franktjp">
 <meta property="article:tag" content="tmux">
 <meta name="twitter:card" content="summary_large_image">
@@ -225,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          612 字
+          1.5k 字
         
       </span>
     
@@ -236,7 +236,7 @@
         
         
         
-          6 分钟
+          13 分钟
         
       </span>
     
@@ -279,8 +279,7 @@
             
               <div class="markdown-body">
                 
-                <p>TODO:还没写完呢</p>
-<h2 id="Tmux是什么？"><a href="#Tmux是什么？" class="headerlink" title="Tmux是什么？"></a>Tmux是什么？</h2><ul>
+                <h2 id="Tmux是什么？"><a href="#Tmux是什么？" class="headerlink" title="Tmux是什么？"></a>Tmux是什么？</h2><ul>
 <li><p>会话（session）：用户打开终端窗口与计算机进行交互，这种交互是临时的，如果关闭窗口那么会话结束，会话内部的进程也会终止。</p>
 </li>
 <li><p>为了让会话与窗口进行解绑：窗口关闭，此时会话并不终止，并在之后需要时让会话绑定其他窗口。</p>
@@ -299,7 +298,7 @@
 <p>Tmux 窗口有大量的快捷键。所有快捷键都要通过前缀键唤起。默认的前缀键是<code>Ctrl+b</code>，即先按下<code>Ctrl+b</code>，快捷键才会生效。<br>举例来说，帮助命令的快捷键是<code>Ctrl+b ?</code>。它的用法是，在 Tmux 窗口中，先按下<code>Ctrl+b</code>，再按下<code>?</code>，就会显示帮助信息。</p>
 </li>
 </ul>
-<h2 id="Tmux会话管理"><a href="#Tmux会话管理" class="headerlink" title="Tmux会话管理"></a>Tmux会话管理</h2><ul>
+<h2 id="Tmux会话（session）管理"><a href="#Tmux会话（session）管理" class="headerlink" title="Tmux会话（session）管理"></a>Tmux会话（session）管理</h2><ul>
 <li><p>创建session</p>
 <p><code>tmux new -s [session_name]</code></p>
 </li>
@@ -319,8 +318,84 @@
 <p><code>tmux switch -t ..</code></p>
 </li>
 </ul>
+<h2 id="Tmux窗口（window）操作"><a href="#Tmux窗口（window）操作" class="headerlink" title="Tmux窗口（window）操作"></a>Tmux窗口（window）操作</h2><ul>
+<li><p>除了将一个窗口划分成多个窗格，Tmux 也允许新建多个窗口</p>
+</li>
+<li><p>常用命令</p>
+<ul>
+<li><p>创建新窗口</p>
+<p><code>tmux new-window</code>、<code>tmux new-window -n [window_anme]</code></p>
+</li>
+<li><p>切换窗口</p>
+<p><code>tmux select-window -t [window_number]</code>、<code>tmux select-window -t [window_name]</code></p>
+</li>
+<li><p>重命名窗口</p>
+<p><code>tmux rename-window [new_window_name]</code></p>
+</li>
+</ul>
+</li>
+<li><p>快捷键</p>
+<ul>
+<li><code>Ctrl+b c</code>：创建一个新窗口，状态栏会显示多个窗口的信息。</li>
+<li><code>Ctrl+b p</code>：切换到上一个窗口（按照状态栏上的顺序）。</li>
+<li><code>Ctrl+b n</code>：切换到下一个窗口。</li>
+<li><code>Ctrl+b &lt;number&gt;</code>：切换到指定编号的窗口，其中的<code>&lt;number&gt;</code>是状态栏上的窗口编号。</li>
+<li><code>Ctrl+b w</code>：从列表中选择窗口。</li>
+<li><code>Ctrl+b ,</code>：窗口重命名。</li>
+</ul>
+</li>
+</ul>
+<h2 id="Tmux窗格（pane）操作"><a href="#Tmux窗格（pane）操作" class="headerlink" title="Tmux窗格（pane）操作"></a>Tmux窗格（pane）操作</h2><ul>
+<li><p>划分窗格</p>
+<ul>
+<li><p>上下划分窗格</p>
+<p><code>tmux split-window</code></p>
+</li>
+<li><p>左右划分窗格</p>
+<p><code>tmux split-window -h</code></p>
+</li>
+</ul>
+</li>
+<li><p>移动光标</p>
+<p><code>tmux select-pane</code>，如<code>tmux select-pane -U/-D/-R/-L</code></p>
+</li>
+<li><p>交换窗格位置</p>
+<p><code>tmux swap-pane -U/-D</code></p>
+</li>
+<li><p>窗格快捷键</p>
+<ul>
+<li><p><code>Ctrl+b &lt;arrow key&gt;</code>：光标切换到其他窗格。<code>&lt;arrow key&gt;</code>是指向要切换到的窗格的方向键，比如切换到下方窗格，就按方向键<code>↓</code>。</p>
+<p><code>Ctrl+b Ctrl+&lt;arrow key&gt;</code>：按箭头方向调整窗格大小(扩大&#x2F;缩小当前窗格大小)</p>
+</li>
+<li><p><code>Ctrl+b x</code>：关闭当前窗格。</p>
+</li>
+<li></li>
+<li><p>其他：不常用</p>
+</li>
+<li><p><code>Ctrl+b %</code>：划分左右两个窗格。</p>
+</li>
+<li><p><code>Ctrl+b &quot;</code>：划分上下两个窗格。</p>
+</li>
+<li><p><code>Ctrl+b !</code>：将当前窗格拆分为一个独立窗口。</p>
+</li>
+<li><p><code>Ctrl+b z</code>：当前窗格全屏显示，再使用一次会变回原来大小。</p>
+</li>
+<li><p><code>Ctrl+b q</code>：显示窗格编号。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Tmux初体验"><a href="#Tmux初体验" class="headerlink" title="Tmux初体验"></a>Tmux初体验</h2><ul>
+<li>最需要用的还是窗口、窗格操作</li>
+<li>一个会话（session）包含多个窗口，一个窗口（window）包含多个窗格（pane）</li>
+</ul>
+<h2 id="Tmux常用设置"><a href="#Tmux常用设置" class="headerlink" title="Tmux常用设置"></a>Tmux常用设置</h2><ul>
+<li>多个窗口：0）docker；1）代码工程，用来编辑代码；2）git操作等</li>
+<li>一个窗口多个窗格</li>
+</ul>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
 <li><a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/2019/10/tmux.html">Tmux 使用教程</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1da4y1p7e1/">Linux下的终端神器Tmux的小白教学</a></li>
 </ul>
 <h2 id="The-End"><a href="#The-End" class="headerlink" title="The End"></a>The End</h2>
                 
